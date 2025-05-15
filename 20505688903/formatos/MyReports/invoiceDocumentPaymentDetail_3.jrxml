@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.0.final using JasperReports Library version 6.20.0-2bc7ab61c56f459e8176eb05c7705e145cd400ad  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Payments_report" pageWidth="560" pageHeight="842" columnWidth="560" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="8eea663c-a58e-4914-a369-152cc79f204d">
+	<property name="ireport.zoom" value="1.5"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="212"/>
+	<parameter name="M3" class="java.math.BigDecimal"/>
+	<parameter name="M2" class="java.math.BigDecimal"/>
+	<parameter name="M1" class="java.math.BigDecimal"/>
+	<parameter name="F3" class="java.lang.String"/>
+	<parameter name="F2" class="java.lang.String"/>
+	<parameter name="F1" class="java.lang.String"/>
+	<parameter name="C3" class="java.lang.String"/>
+	<parameter name="C2" class="java.lang.String"/>
+	<parameter name="C1" class="java.lang.String"/>
+	<parameter name="totalCuotas" class="java.lang.Integer"/>
+	<parameter name="metodoPago" class="java.lang.String"/>
+	<parameter name="baseImponibleRetencion" class="java.math.BigDecimal"/>
+	<parameter name="porcentajeRetencion" class="java.math.BigDecimal"/>
+	<parameter name="montoRetencion" class="java.math.BigDecimal"/>
+	<parameter name="montoPendiente" class="java.math.BigDecimal"/>
+	<field name="lstItemHashMap" class="java.lang.Object"/>
+	<title>
+		<band height="58">
+			<rectangle>
+				<reportElement mode="Transparent" x="9" y="10" width="540" height="48" backcolor="#FFFFFF" uuid="18f888dd-31ad-47f8-8129-e5adbd18647c">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineStyle="Double"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="20" y="13" width="145" height="12" uuid="e981f6cc-f276-4666-955c-f90a31898f88"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Información del Crédito TEST2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="165" y="13" width="10" height="12" uuid="764d55f6-8da1-49b7-8b3b-1690190326f9">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="27" width="145" height="12" uuid="bc58201f-98b5-4215-97fd-3e3cd0da8e86"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[Monto neto pendiente de pago]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="41" width="145" height="12" uuid="0cc08aab-b241-44f9-bb40-21cc17478924"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[Total de cuotas]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="165" y="27" width="10" height="12" uuid="9976e92f-645d-483b-9edd-0cc221176b74">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="165" y="41" width="10" height="12" uuid="2a09e5ff-c20b-41e8-a74d-cbb28142f94a">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="175" y="27" width="100" height="12" uuid="e548a62d-1737-4ca2-89f2-bb4dcc507cab">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{montoPendiente}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="175" y="13" width="100" height="12" forecolor="#000000" uuid="8c865462-58bf-4f74-83ec-75e8686b9797">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Calibri" size="8"/>
+					<paragraph rightIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{metodoPago}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="175" y="41" width="100" height="12" uuid="bb055553-b695-4950-a889-b8cace9e637f">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{totalCuotas}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<summary>
+		<band height="70">
+			<rectangle>
+				<reportElement mode="Transparent" x="20" y="6" width="160" height="12" uuid="46d84228-c653-44a9-bc85-aa4dab66ee76">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement mode="Opaque" x="110" y="6" width="70" height="12" forecolor="#050505" backcolor="#FFFFFF" uuid="9c0fb4ef-f3bb-4a83-9163-5fadebb5400e">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box rightPadding="3"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle" rotation="None" markup="none">
+					<font fontName="Calibri" size="7" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Monto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="20" y="6" width="40" height="12" forecolor="#050505" backcolor="#FFFFFF" uuid="0464b0af-4770-42dd-be2a-3e84c3708e33">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Calibri" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nº Cuota]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="60" y="6" width="50" height="12" forecolor="#050505" backcolor="#FFFFFF" uuid="74c2e85e-4b33-44af-b124-d26235a12c95">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Calibri" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Fec. Venc.]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="9" y="0" width="540" height="35" backcolor="#FFFFFF" uuid="dc760353-2b23-46a1-af1a-019969763e56">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineStyle="Double"/>
+				</graphicElement>
+			</rectangle>
+			<textField isBlankWhenNull="true">
+				<reportElement x="20" y="18" width="40" height="12" uuid="a92a36cd-4f9e-46c7-926c-dbe0c7ca1b29">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{C1}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="60" y="18" width="50" height="12" uuid="2f785e05-3d68-4542-9d11-3f0cde25a3bf">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{F1}]]></textFieldExpression>
+			</textField>
+			<textField pattern="0.00" isBlankWhenNull="true">
+				<reportElement x="110" y="18" width="70" height="12" uuid="8165fcf2-ec80-4799-82cb-beaab7129769">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box rightPadding="3"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{M1}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement mode="Transparent" x="200" y="6" width="160" height="12" uuid="cd95f090-38cd-489a-b0f4-756b8836626f">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement mode="Opaque" x="290" y="6" width="70" height="12" forecolor="#050505" backcolor="#FFFFFF" uuid="cdf71094-d78a-4d1c-93f7-2300ed7a46ca">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box rightPadding="3"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle" rotation="None" markup="none">
+					<font fontName="Calibri" size="7" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Monto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="200" y="6" width="40" height="12" forecolor="#050505" backcolor="#FFFFFF" uuid="3848e619-c20f-4361-9806-5a6c6ab3cdf2">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Calibri" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nº Cuota]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="240" y="6" width="50" height="12" forecolor="#050505" backcolor="#FFFFFF" uuid="e63f2e58-ae0e-4d57-a108-65e9f72bb343">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Calibri" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Fec. Venc.]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="200" y="18" width="40" height="12" uuid="f8f59f03-56aa-43ac-9edf-5e4a563e3329">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{C2}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="240" y="18" width="50" height="12" uuid="3c0ac477-277d-4d1c-ad0a-129602141682">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{F2}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="290" y="18" width="70" height="12" uuid="899751f7-1049-4e98-9a5f-b4b9899c73cb">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box rightPadding="3"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{M2}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement mode="Transparent" x="380" y="6" width="160" height="12" uuid="0dcb3be8-af76-48b0-a282-07fb6ea0995e">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement mode="Opaque" x="470" y="6" width="70" height="12" forecolor="#050505" backcolor="#FFFFFF" uuid="3f1b504d-2e4b-4bd7-b3a7-ef0e1f7dc254">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box rightPadding="3"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle" rotation="None" markup="none">
+					<font fontName="Calibri" size="7" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Monto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="380" y="6" width="40" height="12" forecolor="#050505" backcolor="#FFFFFF" uuid="cf1285fc-9043-4cd6-a7e7-82b9c66790bb">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Calibri" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nº Cuota]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="420" y="6" width="50" height="12" forecolor="#050505" backcolor="#FFFFFF" uuid="bb9183e1-be33-4e8d-9e6d-7e879a8c85cf">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Calibri" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Fec. Venc.]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="380" y="18" width="40" height="12" uuid="6c4dab99-b88a-4cd4-8011-f5fc821fbd8e">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{C3}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="420" y="18" width="50" height="12" uuid="18c30044-bf24-4dca-9306-2dde53c5bb96">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{F3}]]></textFieldExpression>
+			</textField>
+			<textField pattern="0.00" isBlankWhenNull="true">
+				<reportElement x="470" y="18" width="70" height="12" uuid="4fb86622-d957-4619-bc8a-db611ba2e17b">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box rightPadding="3"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{M3}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement mode="Transparent" x="9" y="35" width="540" height="35" backcolor="#FFFFFF" uuid="8b44ce47-c45a-46de-a5d0-da063d367420">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineStyle="Double"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="20" y="39" width="105" height="12" uuid="b23d2f60-fd6c-4892-9fd3-5d7b6adf24bd"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Información de la Retención]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="53" width="105" height="12" uuid="c714f2cb-a127-4dbe-ba58-c4042f4af8af"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[Base Imponible de la Retención:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="128" y="53" width="92" height="12" uuid="78f1b248-5b91-4349-9af4-8785ea6dd5ae">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{baseImponibleRetencion}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="224" y="53" width="85" height="12" uuid="3a60cc1c-c6ba-4533-aa22-294055f2a71e"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[Porcentaje de Retención:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="310" y="53" width="50" height="12" uuid="baafa4eb-ed22-471b-b675-94cccbe8733b">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{porcentajeRetencion}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="380" y="53" width="80" height="12" uuid="cd430524-3bba-4ce2-9e7a-c5061ab80ad2"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[Monto de la Retención:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="470" y="53" width="70" height="12" uuid="ebfef7b4-35d2-4a7c-99c4-f2f5e7b94254">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{montoRetencion}]]></textFieldExpression>
+			</textField>
+		</band>
+	</summary>
+</jasperReport>

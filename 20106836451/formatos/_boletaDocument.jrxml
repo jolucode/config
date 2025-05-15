@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.11.0.final using JasperReports Library version 6.11.0-0c4056ccaa4d25a5a8c45672d2f764ea3498bebb  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Test_report" language="groovy" pageWidth="595" pageHeight="842" columnWidth="560" leftMargin="20" rightMargin="15" topMargin="20" bottomMargin="20" uuid="8eea663c-a58e-4914-a369-152cc79f204d">
+	<property name="ireport.zoom" value="2.657341500000053"/>
+	<property name="ireport.x" value="203"/>
+	<property name="ireport.y" value="291"/>
+	<parameter name="SENDER_SOCIAL_REASON" class="java.lang.String"/>
+	<parameter name="SENDER_RUC" class="java.lang.String"/>
+	<parameter name="SENDER_FISCAL_ADDRESS" class="java.lang.String"/>
+	<parameter name="SENDER_DEP_PROV_DIST" class="java.lang.String"/>
+	<parameter name="SENDER_CONTACT" class="java.lang.String"/>
+	<parameter name="SENDER_MAIL" class="java.lang.String"/>
+	<parameter name="SENDER_LOGO_PATH" class="java.lang.String"/>
+	<parameter name="OPERATION_TYPE_LABEL" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="OPERATION_TYPE_VALUE" class="java.lang.String"/>
+	<parameter name="DOCUMENT_IDENTIFIER" class="java.lang.String"/>
+	<parameter name="ISSUE_DATE" class="java.lang.String"/>
+	<parameter name="CURRENCY_VALUE" class="java.lang.String"/>
+	<parameter name="RECEIVER_FULLNAME" class="java.lang.String"/>
+	<parameter name="RECEIVER_IDENTIFIER" class="java.lang.String"/>
+	<parameter name="RECEIVER_IDENTIFIER_TYPE" class="java.lang.String"/>
+	<parameter name="RECEIVER_FISCAL_ADDRESS" class="java.lang.String"/>
+	<parameter name="SUBTOTAL_VALUE" class="java.lang.String"/>
+	<parameter name="IGV_VALUE" class="java.lang.String"/>
+	<parameter name="ISC_VALUE" class="java.lang.String"/>
+	<parameter name="AMOUNT_VALUE" class="java.lang.String"/>
+	<parameter name="DISCOUNT_VALUE" class="java.lang.String"/>
+	<parameter name="TOTAL_AMOUNT_VALUE" class="java.lang.String"/>
+	<parameter name="GRAVADA_AMOUNT_VALUE" class="java.lang.String"/>
+	<parameter name="EXONERADA_AMOUNT_VALUE" class="java.lang.String"/>
+	<parameter name="INAFECTA_AMOUNT_VALUE" class="java.lang.String"/>
+	<parameter name="GRATUITA_AMOUNT_LABEL" class="java.lang.String"/>
+	<parameter name="GRATUITA_AMOUNT_VALUE" class="java.lang.String"/>
+	<parameter name="LETTER_AMOUNT_VALUE" class="java.lang.String"/>
+	<parameter name="SUBREPORT_LEGENDS_DIR" class="java.lang.String"/>
+	<parameter name="SUBREPORT_LEGENDS_DATASOURCE" class="java.lang.Object"/>
+	<parameter name="SUBREPORT_LEGENDS_MAP" class="java.lang.Object"/>
+	<parameter name="CONDICION_PAGO" class="java.lang.String"/>
+	<parameter name="GUIAS" class="java.lang.String"/>
+	<parameter name="ORDEN_VENTA" class="java.lang.String"/>
+	<parameter name="PREPAID_VALUE" class="java.lang.String"/>
+	<parameter name="TEL_VALUE" class="java.lang.String"/>
+	<parameter name="TEL_VALUE_1" class="java.lang.String"/>
+	<parameter name="WEB_VALUE" class="java.lang.String"/>
+	<parameter name="CamposUsuarioCab" class="java.lang.Object"/>
+	<parameter name="PERCENTAGE_PERCEPTION" class="java.lang.String"/>
+	<parameter name="AMOUNT_PERCEPTION" class="java.lang.String"/>
+	<parameter name="COMMENTS" class="java.lang.String"/>
+	<parameter name="ISC" class="java.lang.String"/>
+	<parameter name="VALIDEZ_PDF" class="java.lang.String"/>
+	<parameter name="DIGESTVALUE" class="java.lang.String"/>
+	<parameter name="CODEQR" class="java.io.InputStream"/>
+	<parameter name="BARCODE_VALUE" class="java.io.InputStream"/>
+	<parameter name="IMPUESTO_BOLSA" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA[0]]></defaultValueExpression>
+	</parameter>
+	<parameter name="IMPUESTO_BOLSA_MONEDA" class="java.lang.String" isForPrompting="false"/>
+	<field name="lstItemHashMap" class="java.lang.Object"/>
+	<title>
+		<band height="211" splitType="Stretch">
+			<rectangle radius="10">
+				<reportElement x="0" y="130" width="560" height="75" forecolor="#004D77" uuid="499b4b7c-90be-44d6-b885-87ff43d4401e"/>
+			</rectangle>
+			<rectangle radius="10">
+				<reportElement x="359" y="12" width="200" height="106" forecolor="#004D77" uuid="bfb92b97-6fe9-4978-841c-649e2a0f0c38"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="363" y="52" width="188" height="24" forecolor="#000000" uuid="abccc15e-71e4-43d1-af07-7de38d6129e5"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Calibri" size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BOLETA ELECTRÓNICA]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="458" y="135" width="100" height="12" forecolor="#000000" uuid="2de91b45-6e1a-422d-bdd7-0801fbf4a400"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{ISSUE_DATE}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="5" y="135" width="55" height="12" forecolor="#000000" uuid="8d956a4a-4c88-499d-992f-42d482f16dc5"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CLIENTE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="356" y="135" width="98" height="12" forecolor="#000000" uuid="fe4609d3-5132-4e04-a5d7-0f36d3d7dd8a"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[FECHA DE EMISION]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="458" y="150" width="100" height="12" forecolor="#000000" uuid="d997b0b1-d68d-4aa3-8942-2a94fcab2521"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{CONDICION_PAGO}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="356" y="150" width="98" height="12" forecolor="#000000" uuid="bab699d3-5650-43ae-b99e-95ec2a480ad7"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CONDICION DE PAGO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="5" y="190" width="55" height="12" forecolor="#000000" uuid="80760e16-4875-4587-abb7-4cd049201f12"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[G/REMISION]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="5" y="175" width="55" height="12" forecolor="#000000" uuid="769d99ba-d6da-4f1a-899d-ca818f9466b9"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[R.U.C./D.N.I.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="356" y="163" width="98" height="12" forecolor="#000000" uuid="300ee5e3-8bc1-4e26-9dc9-e3f997505677"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ORDEN DE COMPRA]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="458" y="175" width="100" height="12" forecolor="#000000" uuid="37e6fe8c-8968-4d0c-b85b-7be12e1e0e8b"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{CURRENCY_VALUE}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="65" y="190" width="280" height="12" forecolor="#000000" uuid="6fc26c09-b184-4919-9895-42ace2d02135"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{GUIAS}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="356" y="175" width="98" height="12" forecolor="#000000" uuid="54e654dd-dae2-4a67-83b6-9509e6ceaf7d"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[MONEDA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="5" y="150" width="55" height="12" forecolor="#000000" uuid="5e201f9a-4aa8-4392-b555-e23bee21e404"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DIRECCIÓN]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="440" y="20" width="104" height="30" forecolor="#000000" uuid="8cc25a84-b2a0-44d8-bcef-f0d408b874f5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Calibri" size="15" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SENDER_RUC}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="368" y="77" width="180" height="27" forecolor="#000000" uuid="320ce17d-07c5-415b-bbe7-f6599602c09a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Calibri" size="15" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Nro. " + $P{DOCUMENT_IDENTIFIER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="368" y="20" width="79" height="30" forecolor="#000000" uuid="d0a188a8-3e20-43be-823a-8b502c78e94a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Calibri" size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[R.U.C. N°]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="65" y="175" width="280" height="12" forecolor="#000000" uuid="6eb359f8-b488-49ac-a3b2-eac5784b15d7"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{RECEIVER_IDENTIFIER}]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+				<reportElement x="65" y="150" width="280" height="24" forecolor="#000000" uuid="144e5bf2-b73f-4b32-b36e-e56230b420d6"/>
+				<textElement verticalAlignment="Top">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{RECEIVER_FISCAL_ADDRESS}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="65" y="135" width="280" height="12" forecolor="#000000" uuid="0d178bdc-590c-4333-af3c-49c3a332d9df"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{RECEIVER_FULLNAME}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="458" y="163" width="100" height="12" forecolor="#000000" uuid="c1c4fa7d-1c27-4992-9f0c-0522f0ee38a9"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu01")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="61" y="135" width="4" height="12" forecolor="#000000" uuid="680bde07-179f-4968-bbd4-55e48a444926"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="61" y="175" width="4" height="12" forecolor="#000000" uuid="311f95d1-0a9b-43cd-90b0-631a74bc47aa"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="454" y="135" width="4" height="12" forecolor="#000000" uuid="e571be59-aa2c-4ef9-8f7f-5e17cfdad1b0"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="454" y="175" width="4" height="12" forecolor="#000000" uuid="9bf1bb29-8d48-428c-975b-61a5e45282db"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="454" y="163" width="4" height="12" forecolor="#000000" uuid="527618ee-cb99-4132-830b-405f70cf3f60"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="61" y="190" width="4" height="12" forecolor="#000000" uuid="7ab46f62-5f95-4339-81e5-894f0ed581cb"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="454" y="150" width="4" height="12" forecolor="#000000" uuid="2dd8452d-53f9-41ac-879e-1212afa1e196"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="61" y="150" width="4" height="12" forecolor="#000000" uuid="cb00c1e7-c17a-4807-a4fc-47771209ee26"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<image scaleImage="RetainShape" hAlign="Left" vAlign="Middle">
+				<reportElement mode="Transparent" x="1" y="6" width="356" height="118" uuid="3b1d7a61-610b-4431-8fa0-0a8bd1c7d43c"/>
+				<imageExpression><![CDATA[$P{SENDER_LOGO_PATH}]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="454" y="190" width="4" height="12" forecolor="#000000" uuid="19796916-577c-4cd6-8685-0ad67b420874"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="458" y="190" width="100" height="12" forecolor="#000000" uuid="820ed178-467d-4d7e-bf76-ee3bb3464aa4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu06")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="356" y="190" width="98" height="12" forecolor="#000000" uuid="56f43c9c-dbbc-471f-b7dc-fe4e8dcfa590"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[TIPO DE CAMBIO]]></text>
+			</staticText>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="20" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Opaque" x="116" y="0" width="42" height="20" forecolor="#DBDBDB" backcolor="#004D77" uuid="0f93698b-887c-44ad-b35f-e026414d24a6"/>
+				<box>
+					<leftPen lineWidth="0.0" lineColor="#004D77"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Calibri" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CANTIDAD]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="426" y="0" width="59" height="20" forecolor="#DBDBDB" backcolor="#004D77" uuid="8598bde9-58e2-4812-8c24-5d95921ec6be"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Calibri" size="7" isBold="true"/>
+					<paragraph rightIndent="5"/>
+				</textElement>
+				<text><![CDATA[V. UNITARIO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="485" y="0" width="75" height="20" forecolor="#DBDBDB" backcolor="#004D77" uuid="34144d62-b634-4776-a58d-51621e19a218"/>
+				<box>
+					<rightPen lineWidth="1.0" lineColor="#004D77"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Calibri" size="7" isBold="true"/>
+					<paragraph rightIndent="10"/>
+				</textElement>
+				<text><![CDATA[IMPORTE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="200" y="0" width="226" height="20" forecolor="#DBDBDB" backcolor="#004D77" uuid="92889c7e-5b2f-446a-bf0b-88ee729d8c13"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Calibri" size="7" isBold="true"/>
+					<paragraph tabStopWidth="10"/>
+				</textElement>
+				<text><![CDATA[DESCRIPCIÓN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="0" width="24" height="20" forecolor="#DBDBDB" backcolor="#004D77" uuid="9ef7a9d9-058b-4f4b-b1c7-c8148b2e4b45"/>
+				<box>
+					<leftPen lineWidth="0.5" lineColor="#004D77"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Calibri" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[N°]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="158" y="0" width="42" height="20" forecolor="#DBDBDB" backcolor="#004D77" uuid="f0fed4d5-9d50-4bcb-97d4-dfe297c95cde"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Calibri" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[UNIDAD]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="24" y="0" width="92" height="20" forecolor="#DBDBDB" backcolor="#004D77" uuid="914822b4-e420-46ed-901d-4ffa7eb64606"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Calibri" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CÓDIGO ARTÍCULO]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="15" splitType="Stretch">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" mode="Opaque" x="0" y="14" width="560" height="1" forecolor="#004D77" backcolor="#004D77" uuid="52775ff0-82e2-45b4-9966-b8dea0294e66">
+					<printWhenExpression><![CDATA[new Boolean ($V{REPORT_COUNT}.intValue()==new Integer(((java.util.HashMap)$F{lstItemHashMap}).get("CANTLINEAS")))]]></printWhenExpression>
+				</reportElement>
+			</line>
+			<textField isBlankWhenNull="true">
+				<reportElement x="485" y="0" width="75" height="15" forecolor="#000000" uuid="9f8c184f-fc46-453d-bffa-14a5b1b69282"/>
+				<box>
+					<leftPen lineWidth="1.0" lineColor="#004D77"/>
+					<rightPen lineWidth="1.0" lineColor="#004D77"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+					<paragraph rightIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new DecimalFormat("###,##0.00", new DecimalFormatSymbols(Locale.US)).format(new BigDecimal(((java.util.HashMap<String,String>)$F{lstItemHashMap}).get("TotalLineaSinIGV")))]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="116" y="0" width="42" height="15" forecolor="#000000" uuid="54381b1e-f184-4686-aeb2-b3ef944e1b51"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="1.0" lineColor="#004D77"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="1.0" lineColor="#004D77"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new DecimalFormat("###,##0.00", new DecimalFormatSymbols(Locale.US)).format(new BigDecimal(((java.util.HashMap<String,String>)$F{lstItemHashMap}).get("Cantidad")))]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="158" y="0" width="42" height="15" forecolor="#000000" uuid="7759981d-7b25-4c4a-a12d-7f60c1b4a892"/>
+				<box>
+					<leftPen lineWidth="1.0" lineColor="#004D77"/>
+					<rightPen lineWidth="1.0" lineColor="#004D77"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[((java.util.HashMap)$F{lstItemHashMap}).get("Unidad")]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="0" y="0" width="24" height="15" forecolor="#000000" uuid="ddf31831-2e74-41e9-af4d-99b316d52d77"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="1.0" lineColor="#004D77"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="1.0" lineColor="#004D77"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new DecimalFormat("###,##0", new DecimalFormatSymbols(Locale.US)).format(new BigDecimal(((java.util.HashMap<String,String>)$F{lstItemHashMap}).get("NRORDEN")))]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="426" y="0" width="59" height="15" forecolor="#000000" uuid="58e20867-1c73-4e60-aaca-d1308f96700e"/>
+				<box>
+					<leftPen lineWidth="0.5" lineColor="#004D77"/>
+					<rightPen lineWidth="0.5" lineColor="#004D77"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+					<paragraph rightIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new DecimalFormat("###,##0.00", new DecimalFormatSymbols(Locale.US)).format(new BigDecimal(((java.util.HashMap<String,String>)$F{lstItemHashMap}).get("PrecioSinIGV")))]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+				<reportElement x="200" y="0" width="226" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="aa5c1d33-d3ff-4f53-b571-dd95aab6cae4"/>
+				<box>
+					<leftPen lineWidth="1.0" lineColor="#004D77"/>
+					<rightPen lineWidth="1.0" lineColor="#004D77"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+					<paragraph leftIndent="5" tabStopWidth="5"/>
+				</textElement>
+				<textFieldExpression><![CDATA[((java.util.HashMap)$F{lstItemHashMap}).get("DETALLE")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+				<reportElement x="24" y="0" width="92" height="14" forecolor="#000000" uuid="e993e884-f882-4eaf-a9fe-7353b48d13b4"/>
+				<box>
+					<leftPen lineWidth="1.0" lineColor="#004D77"/>
+					<rightPen lineWidth="1.0" lineColor="#004D77"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Calibri" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[((java.util.HashMap)$F{lstItemHashMap}).get("CodArticulo")]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<summary>
+		<band height="177" splitType="Stretch">
+			<rectangle radius="5">
+				<reportElement x="0" y="112" width="560" height="25" forecolor="#004D77" uuid="b327e58d-643d-4d75-83b3-04235d298fe7"/>
+			</rectangle>
+			<rectangle radius="5">
+				<reportElement x="356" y="14" width="204" height="17" forecolor="#004D77" uuid="dfa9b1e7-32a2-4414-8278-976cae56ece2"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="362" y="16" width="78" height="12" forecolor="#000000" uuid="4bf1bfc3-e73f-4258-bc93-6e4731ebdecc"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Calibri" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[IMPORTE TOTAL]]></text>
+			</staticText>
+			<image hAlign="Center">
+				<reportElement x="130" y="3" width="68" height="59" uuid="e57b75d0-22f2-4fce-b0b8-757d0768400a"/>
+				<imageExpression><![CDATA[$P{CODEQR}]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="6" y="114" width="300" height="11" uuid="bc8b7602-0887-4415-a57e-a2c34175e7ec"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+					<paragraph tabStopWidth="1"/>
+				</textElement>
+				<text><![CDATA[IMPORTE EN LETRAS:]]></text>
+			</staticText>
+			<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+				<reportElement x="6" y="125" width="534" height="11" uuid="76abc8d5-2af7-40a4-bb16-84937863ea6b"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+					<paragraph tabStopWidth="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{LETTER_AMOUNT_VALUE}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="24" y="62" width="301" height="11" uuid="bd22c1e2-c728-4378-96a3-7cb04288f13c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+					<paragraph tabStopWidth="1"/>
+				</textElement>
+				<text><![CDATA[REPRESENTACIÓN IMPRESA DE LA BOLETA  ELECTRÓNICA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="73" width="355" height="11" uuid="aae53059-91ba-4062-be26-b3455b386acb"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+					<paragraph tabStopWidth="1"/>
+				</textElement>
+				<text><![CDATA[SI USTED DESEA VER SUS DOCUMENTOS ELECTRÓNICOS EMITIDOS, INGRESAR A:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="356" y="73" width="202" height="11" uuid="97474eb7-db44-4972-a1c9-39b692963236"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+					<paragraph tabStopWidth="1"/>
+				</textElement>
+				<text><![CDATA[" http://facturacion.sego.com.pe/ "]]></text>
+			</staticText>
+			<subreport isUsingCache="false">
+				<reportElement stretchType="RelativeToBandHeight" x="1" y="140" width="560" height="36" uuid="9f5ee52b-d95b-4eee-8440-8d8642dc99c2"/>
+				<parametersMapExpression><![CDATA[$P{SUBREPORT_LEGENDS_MAP}]]></parametersMapExpression>
+				<dataSourceExpression><![CDATA[$P{SUBREPORT_LEGENDS_DATASOURCE}]]></dataSourceExpression>
+				<subreportExpression><![CDATA[$P{SUBREPORT_LEGENDS_DIR}]]></subreportExpression>
+			</subreport>
+			<textField>
+				<reportElement x="443" y="16" width="31" height="12" forecolor="#333333" uuid="3cf1e4a6-ec1f-4961-9ca9-1f2e80a07f45"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Calibri" size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu05")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="1" y="86" width="559" height="24" uuid="5ee66573-d386-4b80-80d6-a4d8f0054bc9"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+					<paragraph tabStopWidth="1"/>
+				</textElement>
+				<text><![CDATA[“TODOS LOS COMPROBANTES EN MONEDA EXTRANJERA;  QUE SEAN PAGADOS CON MONEDA NACIONAL , DEBERÁ SER AL TIPO CAMBIO VIGENTE EN LA FECHA DE PAGO”.]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="474" y="16" width="85" height="12" forecolor="#000000" uuid="aecc4dfc-a0ef-4318-9573-e7c4b2ac4e48">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<printWhenExpression><![CDATA[$P{IMPUESTO_BOLSA}.equals(null)]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Calibri" size="8" isBold="false"/>
+					<paragraph rightIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new DecimalFormat("###,##0.00", new DecimalFormatSymbols(Locale.US)).format(new java.lang.Double(java.lang.Double.parseDouble($P{TOTAL_AMOUNT_VALUE}.replace(',','').substring(4))))]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="474" y="16" width="85" height="12" forecolor="#000000" uuid="b440e146-71ea-49f5-adcc-f038f95fea0a">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Calibri" size="8" isBold="false"/>
+					<paragraph rightIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{TOTAL_AMOUNT_VALUE}.substring(3)]]></textFieldExpression>
+			</textField>
+		</band>
+	</summary>
+</jasperReport>
