@@ -57,6 +57,7 @@
 	<parameter name="SUBREPORT_PAYMENTS_DATASOURCE" class="java.lang.Object"/>
 	<parameter name="SUBREPORT_PAYMENTS_DIR" class="java.lang.String"/>
 	<parameter name="SUBREPORT_CUOTAS_MAP" class="java.lang.Object"/>
+	<parameter name="COMMENTS" class="java.lang.String"/>
 	<field name="lstItemHashMap" class="java.lang.Object"/>
 	<title>
 		<band height="216" splitType="Stretch">
@@ -654,7 +655,7 @@
 					<font fontName="Arial" size="8" isBold="true"/>
 					<paragraph leftIndent="5"/>
 				</textElement>
-				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu02")]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$P{COMMENTS}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="360" y="8" width="74" height="12" forecolor="#000000" uuid="a89aa2ea-cd8b-45a2-9398-85712dd4cc93"/>
