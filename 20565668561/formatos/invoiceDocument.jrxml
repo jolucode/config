@@ -670,14 +670,15 @@ TRANSFERENCIA GRATUITA DE UN BIEN Y/O SERVICIO PRESTADO GRATUITAMENTE.]]></text>
 				<imageExpression><![CDATA[$P{CODEQR}]]></imageExpression>
 			</image>
 			<staticText>
-				<reportElement x="426" y="120" width="135" height="36" forecolor="#000000" uuid="8e30712b-886d-4c90-85ed-3e291ea77aef"/>
+				<reportElement x="426" y="120" width="135" height="42" forecolor="#000000" uuid="8e30712b-886d-4c90-85ed-3e291ea77aef"/>
 				<textElement verticalAlignment="Middle">
 					<font fontName="Arial" size="6" isBold="true"/>
 				</textElement>
-				<text><![CDATA[ALQUILER 10%
-FLETE 4%
-CAPACITACIÓN 12%
-MANTENIMIENTO Y REPARACIÓN 12%]]></text>
+				<text><![CDATA[ALQUILER 10% (019)
+FLETE 4% (027)
+CAPACITACION 12% (037)
+MANTENIMIENTO Y REPARACION 12% (020)
+DAÑOS 12% (037)]]></text>
 			</staticText>
 			<subreport>
 				<reportElement stretchType="ContainerHeight" x="0" y="190" width="290" height="135" uuid="d8c4be81-e53b-4a5e-979b-9c389feff854">
@@ -830,15 +831,13 @@ MANTENIMIENTO Y REPARACIÓN 12%]]></text>
 				<textElement textAlignment="Right" verticalAlignment="Top">
 					<font fontName="Calibri" size="8" isBold="false"/>
 				</textElement>
-				<textFieldExpression><![CDATA[
-					$P{CamposUsuarioCab} != null 
+				<textFieldExpression><![CDATA[$P{CamposUsuarioCab} != null 
 					&& ((java.util.HashMap)$P{CamposUsuarioCab}).get("cu06") != null 
 					&& !((java.util.HashMap)$P{CamposUsuarioCab}).get("cu06").toString().trim().isEmpty() 
 					? new DecimalFormat("###,##0.00", new DecimalFormatSymbols(Locale.US)).format(
 						new BigDecimal(((java.util.HashMap)$P{CamposUsuarioCab}).get("cu06").toString())
 					) 
-					: ""
-				]]></textFieldExpression>
+					: ""]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="0" y="162" width="426" height="20" isRemoveLineWhenBlank="true" uuid="56a04127-12f7-4529-8aef-6b54abd11360"/>

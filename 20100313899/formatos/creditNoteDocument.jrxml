@@ -163,7 +163,7 @@
 				<textElement>
 					<font fontName="Arial" size="8"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$P{DATE_REFERENCE_DOC_VALUE}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu07")]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="37" y="201" width="112" height="12" isPrintWhenDetailOverflows="true" forecolor="#000000" uuid="10781ccc-fa99-48ae-988f-55629eba1bc6"/>
