@@ -99,9 +99,9 @@
 				<text><![CDATA[ELECTRÓNICA]]></text>
 			</staticText>
 			<textField isBlankWhenNull="true">
-				<reportElement positionType="FixRelativeToBottom" x="130" y="22" width="222" height="22" forecolor="#000000" uuid="9f8b6ccc-2d7d-47d2-a621-7d4404bcb4d7"/>
+				<reportElement positionType="FixRelativeToBottom" x="117" y="22" width="243" height="22" forecolor="#000000" uuid="9f8b6ccc-2d7d-47d2-a621-7d4404bcb4d7"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="Calibri" size="14" isBold="true"/>
+					<font fontName="Calibri" size="9" isBold="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{SENDER_SOCIAL_REASON}]]></textFieldExpression>
 			</textField>
