@@ -1,0 +1,109 @@
+---
+configuracion:
+  gestorTiempo:
+    tiempo: "10"
+  erp:
+    servidorLicencias: "172.20.11.9:40000"
+    tipoServidor: "9"
+    tipoConector: "1"
+    servidorBD: "NDB@172.20.11.9:30013"
+    baseDeDatos: "SBO_PROD_LMXSAC"
+    user: "SYSTEM"
+    password: "B1Admin$1"
+    erpUser: "VS_FE"
+    erpPass: "B1Admin$1"
+    erpRutaArchivos: "\\\\172.20.11.9\\b1_shf\\FFEE\\LMAXX"
+    erpNombreSociedad: ""
+  jdbc:
+    estadoJdbc: "false"
+    servidorBDJdbc: ""
+    nameUserField: ""
+    sqlServer: "false"
+  usoSunat:
+    ws: "true"
+    pdf: "false"
+    validacion: "false"
+  repositorio:
+    tipoServidor: "11"
+    servidorBD: "localhost"
+    puerto: "3306"
+    baseDatos: "vscpebd_lmaxx_prod"
+    user: "root"
+    password: "B1Admin$1"
+  proxy:
+    usarProxy: "false"
+    servidor: ""
+    puerto: ""
+    requAuth: "false"
+    user: ""
+    pass: ""
+  directorio:
+    adjuntos: "\\\\172.20.11.9\\b1_shf\\FFEE\\LMAXX"
+  tiempos:
+    rqTimeOut: "61"
+    rqInterval: "20"
+    rsTimeOut: "61"
+    rsInterval: "20"
+  webService:
+    wsUsuario: "admin"
+    wsClave: "ventura"
+    wsLocation: "http://maxxfe.ladrillosmaxx.com"
+    wsTiempoEsperaPublic: 61
+    wsIntervaloRepeticionPublic: 20
+    wsTiempoPublicacionPublic: 0
+  emisorElectronico:
+    rs: "205454844881/SUNAT"
+    senderLogo: "C:\\VSCPE\\Paquete\\LMAXX\\Recursos\\COMPANY_LOGO.jpg"
+  impresion:
+    pdf: "Codigo QR"
+  certificadoDigital:
+    rutaCertificado: "C:\\VSCPE\\Paquete\\LMAXX\\Recursos\\CertificadoPFX.pfx"
+    passwordCertificado: "LMXSAC2025lmxsac"
+    proveedorKeystore: "SunJSSE"
+    tipoKeystore: "Pkcs12"
+  pfeConnector:
+    tipo: "2"
+  resumenDiario:
+    hora: "08:00"
+    fecha: ""
+  general:
+    puertoConfigurador: "7015"
+    puertoRequest: "7018"
+    puertoResponse: "7019"
+    puertoResumen: "7020"
+    puertoPublicador: "7017"
+    puertoExtractor: ""
+  sunat:
+    mostrarSoap: "true"
+    clienteSunat: "production"
+    ambiente: "2"
+    usuario:
+      usuarioSol: "20532613028TCIV"
+      claveSol: "F7KAE9PBTX"
+    integracionWS: "OSE"
+    rutaSunatTest: "https://e-beta.sunat.gob.pe/ol-ti-itcpfegem-beta/billService?wsdl"
+    rutaSunatProd: "https://e-factura.sunat.gob.pe/ol-ti-itcpfegem/billService?wsdl"
+    rutaOseTest: "https://proy.ose.tci.net.pe/ol-ti-itcpe-2/ws/billService?wsdl"
+    rutaOseProd: "https://ose.pe/ol-ti-itcpe/billService3.svc?wsdl"
+  versionUBL:
+    factura: "21"
+    boleta: "21"
+    notaCredito: "21"
+    notaDebito: "21"
+  pdf:
+    invoiceReportPath: "C:\\VSCPE\\Paquete\\LMAXX\\Recursos\\PdfPlantilla\\Template_Default\\\
+      invoiceDocument.jrxml"
+    boletaReportPath: "C:\\VSCPE\\Paquete\\LMAXX\\Recursos\\PdfPlantilla\\Template_Default\\\
+      boletaDocument.jrxml"
+    creditNoteReportPath: "C:\\VSCPE\\Paquete\\LMAXX\\Recursos\\PdfPlantilla\\Template_Default\\\
+      creditNoteDocument.jrxml"
+    perceptionReportPath: "C:\\VSCPE\\Paquete\\LMAXX\\Recursos\\PdfPlantilla\\Template_Default\\\
+      perceptionDocument.jrxml"
+    retentionReportPath: "C:\\VSCPE\\Paquete\\LMAXX\\Recursos\\PdfPlantilla\\Template_Default\\\
+      retentionDocument.jrxml"
+    debitNoteReportPath: "C:\\VSCPE\\Paquete\\LMAXX\\Recursos\\PdfPlantilla\\Template_Default\\\
+      debitNoteDocument.jrxml"
+    legendSubReportPath: "C:\\VSCPE\\Paquete\\LMAXX\\Recursos\\PdfPlantilla\\Template_Default\\\
+      legendReport.jasper"
+    remissionGuideReportPath: "C:\\VSCPE\\Paquete\\LMAXX\\Recursos\\PdfPlantilla\\\
+      Template_Default\\remissionguideDocument.jrxml"
