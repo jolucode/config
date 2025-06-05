@@ -796,7 +796,7 @@
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="Arial" size="10" isBold="true"/>
 				</textElement>
-				<textFieldExpression><![CDATA[Double.parseDouble($P{TOTAL_AMOUNT_VALUE}.substring(3).replaceAll(",",""))+Double.parseDouble($P{AMOUNT_PERCEPTION}.substring(3).replaceAll(",",""))]]></textFieldExpression>
+				<textFieldExpression><![CDATA[((java.util.HashMap)$F{lstItemHashMap}).get("cu25")]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="1" y="119" width="57" height="12" forecolor="#000000" uuid="064ee15d-8ef3-4d28-ba35-cceffe0e417c">
