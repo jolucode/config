@@ -356,13 +356,6 @@
 				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu10")]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="156" y="14" width="187" height="10" forecolor="#000000" uuid="47b894d5-964d-436f-a482-c8da1a29a2a0"/>
-				<textElement textAlignment="Left" verticalAlignment="Top">
-					<font fontName="Calibri" size="8" isBold="true"/>
-				</textElement>
-				<text><![CDATA[AV. OSCAR R. BENAVIDES NRO. 1524]]></text>
-			</staticText>
-			<staticText>
 				<reportElement x="156" y="28" width="178" height="10" forecolor="#000000" uuid="e205c055-9d50-4164-970b-41d1ae223b68"/>
 				<textElement textAlignment="Left" verticalAlignment="Top">
 					<font fontName="Calibri" size="8" isBold="true"/>
@@ -676,6 +669,17 @@
 					<font fontName="Calibri" size="8" isBold="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu40")]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="156" y="10" width="196" height="12" forecolor="#000000" uuid="809e78cf-9cbf-47cf-bd1c-3bf6e9f223a2">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Calibri" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu41")]]></textFieldExpression>
 			</textField>
 		</band>
 	</title>
