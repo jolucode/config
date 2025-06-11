@@ -1352,45 +1352,26 @@ M3]]></text>
 				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu45")]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="502" y="223" width="57" height="12" forecolor="#000000" uuid="0d163a92-4d50-45d7-9cd7-3b6689b41f63"/>
+				<reportElement x="444" y="223" width="115" height="12" forecolor="#000000" uuid="0d163a92-4d50-45d7-9cd7-3b6689b41f63"/>
 				<textElement verticalAlignment="Middle">
 					<font fontName="Calibri" size="8" isBold="false"/>
 				</textElement>
+				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu51")+' '+((java.util.HashMap)$P{CamposUsuarioCab}).get("cu26")]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="415" y="223" width="83" height="12" forecolor="#000000" backcolor="#000000" uuid="72b63b0a-24ff-425e-a6dc-3d20c484db63"/>
+				<reportElement x="415" y="223" width="29" height="12" forecolor="#000000" backcolor="#000000" uuid="72b63b0a-24ff-425e-a6dc-3d20c484db63"/>
 				<textElement verticalAlignment="Middle" markup="none">
 					<font fontName="Calibri" size="8" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Nro. Guía Remisión Baja]]></text>
+				<text><![CDATA[PSA]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="498" y="223" width="4" height="12" forecolor="#000000" uuid="05a98e2d-ef1c-4c95-ad76-06442052c222"/>
+				<reportElement x="438" y="223" width="4" height="12" forecolor="#000000" uuid="05a98e2d-ef1c-4c95-ad76-06442052c222"/>
 				<textElement verticalAlignment="Middle">
 					<font fontName="Calibri" size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[:]]></text>
 			</staticText>
-			<staticText>
-				<reportElement x="498" y="235" width="4" height="12" forecolor="#000000" uuid="e18c92ae-4502-4ccb-892c-566e7e2f0dad"/>
-				<textElement verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="true"/>
-				</textElement>
-				<text><![CDATA[:]]></text>
-			</staticText>
-			<staticText>
-				<reportElement x="415" y="235" width="83" height="12" forecolor="#000000" backcolor="#000000" uuid="94ede659-2004-42cf-9f0d-564fbc92cf89"/>
-				<textElement verticalAlignment="Middle" markup="none">
-					<font fontName="Calibri" size="8" isBold="true"/>
-				</textElement>
-				<text><![CDATA[Tipo Doc. Guía Baja]]></text>
-			</staticText>
-			<textField isBlankWhenNull="true">
-				<reportElement x="502" y="235" width="57" height="12" forecolor="#000000" uuid="caba5f77-bde5-4256-bff5-58d03a13e13e"/>
-				<textElement verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="false"/>
-				</textElement>
-			</textField>
 			<staticText>
 				<reportElement x="22" y="258" width="46" height="12" forecolor="#000000" backcolor="#000000" uuid="10e502f1-a2a1-49bc-9ea3-6ed5d4cc2a96"/>
 				<textElement verticalAlignment="Middle" markup="none">
