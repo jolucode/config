@@ -326,7 +326,9 @@
 				<textElement verticalAlignment="Middle">
 					<font fontName="Arial" size="7"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$P{DUE_DATE}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[new java.text.SimpleDateFormat("dd/MM/yyyy").format(
+    new java.text.SimpleDateFormat("yyyy-MM-dd").parse($P{DUE_DATE})
+)]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement x="131" y="175" width="240" height="10" forecolor="#666666" uuid="d51781fa-d74a-4193-b612-24e24b92144e"/>
