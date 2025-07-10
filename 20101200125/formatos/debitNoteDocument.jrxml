@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.11.0.final using JasperReports Library version 6.11.0-0c4056ccaa4d25a5a8c45672d2f764ea3498bebb  -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Test_report" language="groovy" pageWidth="595" pageHeight="842" columnWidth="560" leftMargin="20" rightMargin="15" topMargin="20" bottomMargin="20" uuid="8eea663c-a58e-4914-a369-152cc79f204d">
 	<property name="ireport.zoom" value="1.0245201830476083"/>
 	<property name="ireport.x" value="0"/>
@@ -234,7 +235,7 @@
 				</textElement>
 				<textFieldExpression><![CDATA[$P{RECEIVER_IDENTIFIER}]]></textFieldExpression>
 			</textField>
-			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+			<textField textAdjust="StretchHeight" isBlankWhenNull="true">
 				<reportElement x="112" y="156" width="425" height="26" forecolor="#666666" uuid="980af6a5-b9ca-4a27-9677-ca71b36cfcca"/>
 				<textElement verticalAlignment="Top">
 					<font fontName="Calibri" size="8"/>
@@ -370,7 +371,7 @@
 	</columnHeader>
 	<detail>
 		<band height="17" splitType="Stretch">
-			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+			<textField textAdjust="StretchHeight" isBlankWhenNull="true">
 				<reportElement mode="Opaque" x="115" y="0" width="310" height="16" forecolor="#666666" backcolor="#FFFFFF" uuid="902a5490-3750-463e-935c-dcd8a0a4cf85"/>
 				<textElement verticalAlignment="Middle">
 					<font size="7"/>
@@ -378,7 +379,7 @@
 				</textElement>
 				<textFieldExpression><![CDATA[((java.util.HashMap)$F{lstItemHashMap}).get("Descripcion")]]></textFieldExpression>
 			</textField>
-			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+			<textField textAdjust="StretchHeight" isBlankWhenNull="true">
 				<reportElement mode="Opaque" x="486" y="1" width="73" height="16" forecolor="#666666" backcolor="#FFFFFF" uuid="e153b95c-cbfb-48aa-8f78-79de7df94db1"/>
 				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font size="7"/>
@@ -386,21 +387,21 @@
 				</textElement>
 				<textFieldExpression><![CDATA[new DecimalFormat("###,##0.00", new DecimalFormatSymbols(Locale.US)).format(new BigDecimal(((java.util.HashMap<String,String>)$F{lstItemHashMap}).get("TotalLineaConIGV")))]]></textFieldExpression>
 			</textField>
-			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+			<textField textAdjust="StretchHeight" isBlankWhenNull="true">
 				<reportElement mode="Opaque" x="0" y="0" width="55" height="16" forecolor="#666666" backcolor="#FFFFFF" uuid="711772c3-6d54-46d6-b139-70275889240e"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="7" isUnderline="false"/>
 				</textElement>
 				<textFieldExpression><![CDATA[new DecimalFormat("###,##0.00", new DecimalFormatSymbols(Locale.US)).format(new BigDecimal(((java.util.HashMap<String,String>)$F{lstItemHashMap}).get("Cantidad")))]]></textFieldExpression>
 			</textField>
-			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+			<textField textAdjust="StretchHeight" isBlankWhenNull="true">
 				<reportElement mode="Opaque" x="55" y="0" width="60" height="16" forecolor="#666666" backcolor="#FFFFFF" uuid="74436aea-f537-46a7-b5ed-174bdc9b33ff"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle" markup="none">
 					<font size="7" isUnderline="false" isStrikeThrough="false"/>
 				</textElement>
 				<textFieldExpression><![CDATA[((java.util.HashMap)$F{lstItemHashMap}).get("Unidad")]]></textFieldExpression>
 			</textField>
-			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+			<textField textAdjust="StretchHeight" isBlankWhenNull="true">
 				<reportElement mode="Opaque" x="425" y="0" width="59" height="16" forecolor="#666666" backcolor="#FFFFFF" uuid="e1d0169b-56ff-4de0-a034-b520d91b16ae"/>
 				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font size="7"/>
@@ -449,7 +450,7 @@
 				</textElement>
 				<text><![CDATA[Autorizado mediante la Resolución de Intendencia N° 0180050002804/SUNAT]]></text>
 			</staticText>
-			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+			<textField textAdjust="StretchHeight" isBlankWhenNull="true">
 				<reportElement x="13" y="241" width="538" height="18" uuid="cf87d809-e52a-4868-a44c-782beadb52c8"/>
 				<textElement verticalAlignment="Middle">
 					<font fontName="Calibri" size="9" isBold="true"/>

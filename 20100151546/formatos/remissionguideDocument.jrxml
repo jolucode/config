@@ -46,7 +46,7 @@
 	</queryString>
 	<field name="lstItemHashMap" class="java.lang.Object"/>
 	<background>
-		<band splitType="Stretch"/>
+		<band height="5" splitType="Stretch"/>
 	</background>
 	<title>
 		<band height="122" splitType="Stretch">
@@ -396,8 +396,7 @@
 					<font fontName="Calibri" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{lstItemHashMap} != null && ((java.util.HashMap)$F{lstItemHashMap}).get("Peso") != null ? 
-							((java.util.HashMap)$F{lstItemHashMap}).get("Peso").toString() : "0.0"]]>
-				</textFieldExpression>
+							((java.util.HashMap)$F{lstItemHashMap}).get("Peso").toString() : "0.0"]]></textFieldExpression>
 			</textField>
 		</band>
 	</detail>
@@ -444,7 +443,7 @@
 		</band>
 	</lastPageFooter>
 	<summary>
-		<band height="258" splitType="Stretch">
+		<band height="420" splitType="Stretch">
 			<rectangle>
 				<reportElement x="264" y="56" width="280" height="20" forecolor="#000000" uuid="69980f06-6985-4944-80bf-ace05a07b448"/>
 			</rectangle>
@@ -461,7 +460,7 @@
 				<reportElement x="10" y="136" width="534" height="71" forecolor="#000000" uuid="1840653b-f9a7-4c29-8356-959041314e90"/>
 			</rectangle>
 			<staticText>
-				<reportElement x="12" y="138" width="155" height="18" uuid="ca9f4ffc-e315-49ed-9e9f-51fa12935d3c"/>
+				<reportElement x="12" y="136" width="155" height="18" uuid="ca9f4ffc-e315-49ed-9e9f-51fa12935d3c"/>
 				<textElement verticalAlignment="Middle">
 					<font fontName="Calibri" size="9" isBold="false"/>
 				</textElement>
@@ -577,7 +576,7 @@
 				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu17")]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="12" y="156" width="458" height="51" forecolor="#666666" uuid="0d665198-1a56-4b9f-b3c9-95faa3451a06"/>
+				<reportElement x="12" y="156" width="456" height="51" forecolor="#666666" uuid="0d665198-1a56-4b9f-b3c9-95faa3451a06"/>
 				<textElement verticalAlignment="Top">
 					<font fontName="Calibri" size="8"/>
 				</textElement>
@@ -685,6 +684,10 @@
 				</textElement>
 				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu28")]]></textFieldExpression>
 			</textField>
+			<image>
+				<reportElement x="20" y="260" width="200" height="160" uuid="cc93715c-b694-4e62-955c-af735b32e144"/>
+				<imageExpression><![CDATA[$P{CODEQR}]]></imageExpression>
+			</image>
 		</band>
 	</summary>
 </jasperReport>

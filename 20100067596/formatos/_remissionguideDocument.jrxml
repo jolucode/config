@@ -1352,21 +1352,21 @@ M3]]></text>
 				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu45")]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="262" y="318" width="115" height="12" forecolor="#000000" uuid="0d163a92-4d50-45d7-9cd7-3b6689b41f63"/>
+				<reportElement x="444" y="223" width="115" height="12" forecolor="#000000" uuid="0d163a92-4d50-45d7-9cd7-3b6689b41f63"/>
 				<textElement verticalAlignment="Middle">
 					<font fontName="Calibri" size="8" isBold="false"/>
 				</textElement>
 				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu51")+' '+((java.util.HashMap)$P{CamposUsuarioCab}).get("cu26")]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="233" y="318" width="29" height="12" forecolor="#000000" backcolor="#000000" uuid="72b63b0a-24ff-425e-a6dc-3d20c484db63"/>
+				<reportElement x="415" y="223" width="29" height="12" forecolor="#000000" backcolor="#000000" uuid="72b63b0a-24ff-425e-a6dc-3d20c484db63"/>
 				<textElement verticalAlignment="Middle" markup="none">
 					<font fontName="Calibri" size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[PSA]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="256" y="318" width="4" height="12" forecolor="#000000" uuid="05a98e2d-ef1c-4c95-ad76-06442052c222"/>
+				<reportElement x="438" y="223" width="4" height="12" forecolor="#000000" uuid="05a98e2d-ef1c-4c95-ad76-06442052c222"/>
 				<textElement verticalAlignment="Middle">
 					<font fontName="Calibri" size="8" isBold="true"/>
 				</textElement>
@@ -1590,48 +1590,6 @@ M3]]></text>
 					<font fontName="Calibri" size="8" isBold="false"/>
 				</textElement>
 				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu44")]]></textFieldExpression>
-			</textField>
-			<staticText>
-				<reportElement x="415" y="223" width="73" height="12" forecolor="#000000" backcolor="#000000" uuid="5ccc9def-5527-4783-b213-2617943ff451"/>
-				<textElement verticalAlignment="Middle" markup="none">
-					<font fontName="Calibri" size="8" isBold="true"/>
-				</textElement>
-				<text><![CDATA[Nro. Guía Remisión]]></text>
-			</staticText>
-			<staticText>
-				<reportElement x="481" y="223" width="4" height="12" forecolor="#000000" uuid="3f5645b2-2b37-4bce-b05e-e1faea191dc4"/>
-				<textElement verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="true"/>
-				</textElement>
-				<text><![CDATA[:]]></text>
-			</staticText>
-			<textField isBlankWhenNull="true">
-				<reportElement x="485" y="223" width="77" height="12" forecolor="#000000" uuid="ab8b142d-20b1-49de-8a41-343e8333d283"/>
-				<textElement verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="false"/>
-				</textElement>
-				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu52")]]></textFieldExpression>
-			</textField>
-			<staticText>
-				<reportElement x="415" y="235" width="70" height="12" forecolor="#000000" backcolor="#000000" uuid="b544a7d7-f7d9-48bd-9d7f-73df9ed69530"/>
-				<textElement verticalAlignment="Middle" markup="none">
-					<font fontName="Calibri" size="8" isBold="true"/>
-				</textElement>
-				<text><![CDATA[Tipo Doc. Guía Baja]]></text>
-			</staticText>
-			<staticText>
-				<reportElement x="481" y="235" width="4" height="12" forecolor="#000000" uuid="0c7a3301-e1c6-4d1f-bf9d-aa0eb444b2da"/>
-				<textElement verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="true"/>
-				</textElement>
-				<text><![CDATA[:]]></text>
-			</staticText>
-			<textField isBlankWhenNull="true">
-				<reportElement x="485" y="235" width="77" height="12" forecolor="#000000" uuid="9f8f0753-5f3e-4ab9-8253-fbcb30c7d4e3"/>
-				<textElement verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="false"/>
-				</textElement>
-				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu53")]]></textFieldExpression>
 			</textField>
 		</band>
 	</lastPageFooter>

@@ -474,7 +474,7 @@
 		</band>
 	</lastPageFooter>
 	<summary>
-		<band height="298" splitType="Stretch">
+		<band height="400" splitType="Stretch">
 			<rectangle>
 				<reportElement x="264" y="39" width="280" height="36" forecolor="#000000" uuid="69980f06-6985-4944-80bf-ace05a07b448"/>
 			</rectangle>
@@ -706,6 +706,10 @@
 				</textElement>
 				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu23")]]></textFieldExpression>
 			</textField>
+			<image>
+				<reportElement x="20" y="260" width="190" height="140" uuid="ec9ca1f7-b17e-49cf-97ad-d66c350c2532"/>
+				<imageExpression><![CDATA[$P{CODEQR}]]></imageExpression>
+			</image>
 		</band>
 	</summary>
 </jasperReport>
