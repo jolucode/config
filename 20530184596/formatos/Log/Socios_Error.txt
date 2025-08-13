@@ -1,0 +1,298 @@
+BD|CODIGO|ERROR
+ZZZ_ECOACUICOLA_2911|PL10079621965|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10028434532|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10417708958|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10437725620|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10700120819|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10105433668|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10704715990|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10082504767|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10734231911|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20525488536|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL20600005155|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10078200338|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10103468863|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10093366251|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10421277708|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10091353364|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL15603452981|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10758441135|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10028118134|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10002383301|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10165889148|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10420361977|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10026808168|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|CL20102708394|(2) bpvs:LC02 - El código de Impuesto de la Dirección de Almacén debe ser el mismo para todas las direcciones.
+ZZZ_ECOACUICOLA_2911|PL10026282948|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20605470611|(2) bpvs:FE03 - La dirección de facturación por defecto debe de tener un ubigueo definido.
+ZZZ_ECOACUICOLA_2911|PL10723731513|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10411749539|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10401906091|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10458830288|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10472937931|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10028568377|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10413505548|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10032340607|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10026481835|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10091567674|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20522051315|(2) bpvs:FE03 - La dirección de facturación por defecto debe de tener un ubigueo definido.
+ZZZ_ECOACUICOLA_2911|PL10702936794|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10403008236|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10742353007|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10762361472|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20564490351|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL20602009395|(2) bpvs:FE03 - La dirección de facturación por defecto debe de tener un ubigueo definido.
+ZZZ_ECOACUICOLA_2911|PL10758137151|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10095386828|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10082386039|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20467534026|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL20136890329|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10081919149|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10082112362|(2) bpvs:LC18 - Debe registrar por lo menos una dirección de almacén
+ZZZ_ECOACUICOLA_2911|PL10420049388|(2) bpvs:LC18 - Debe registrar por lo menos una dirección de almacén
+ZZZ_ECOACUICOLA_2911|PL10421149068|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10421451309|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10421753135|(2) bpvs:LC18 - Debe registrar por lo menos una dirección de almacén
+ZZZ_ECOACUICOLA_2911|PL10420765890|(2) bpvs:FE03 - La dirección de facturación por defecto debe de tener un ubigueo definido.
+ZZZ_ECOACUICOLA_2911|PL10034731956|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10076170997|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10074762820|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20555271566|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10078731805|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10424565119|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10077976456|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20600087178|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10402646034|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20100141583|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10439931081|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10028889335|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10032132541|(2) bpvs:FE03 - La dirección de facturación por defecto debe de tener un ubigueo definido.
+ZZZ_ECOACUICOLA_2911|PL10031204726|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10032365472|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10032382156|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10036685455|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10477728061|(2) bpvs:LC18 - Debe registrar por lo menos una dirección de almacén
+ZZZ_ECOACUICOLA_2911|PL10036683673|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10417866928|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10728022961|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10003278463|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10804887178|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10028961826|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20505370130|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10036930000|(2) bpvs:LC18 - Debe registrar por lo menos una dirección de almacén
+ZZZ_ECOACUICOLA_2911|PL10036930701|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20529921846|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL20530192424|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL20393011727|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10450059507|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20563739771|(2) bpvs:LC09 - Debe elegir moneda multiple para el registro de los socios de negocio
+ZZZ_ECOACUICOLA_2911|PL10473136088|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL15493213412|(2) bpvs:LC11 - Si es persona natural el campo Nombre debe contener los campos de usuario Ape.Paterno + Ape.Materno + Nombres + Segundo Nombre
+ZZZ_ECOACUICOLA_2911|PL10028109232|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10406045833|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20268910515|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10036124828|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10416355628|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10036237053|(2) bpvs:FE03 - La dirección de facturación por defecto debe de tener un ubigueo definido.
+ZZZ_ECOACUICOLA_2911|PL10414862743|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10035940664|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10758890592|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10026615882|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10038839760|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10479161661|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10027987554|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10419949855|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10180902851|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10454484687|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10449522244|(2) bpvs:LC18 - Debe registrar por lo menos una dirección de almacén
+ZZZ_ECOACUICOLA_2911|PL10091454420|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20409264965|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10028935647|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10030856886|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20573813708|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10028763170|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10026931881|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10450116471|(2) bpvs:FE03 - La dirección de facturación por defecto debe de tener un ubigueo definido.
+ZZZ_ECOACUICOLA_2911|PL10167220253|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10026450522|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10036977308|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10471334494|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10472469954|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10460322427|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20543854043|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10475777749|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10475362140|(2) bpvs:LC18 - Debe registrar por lo menos una dirección de almacén
+ZZZ_ECOACUICOLA_2911|PL10181244360|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10477241803|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10702151037|(2) bpvs:LC18 - Debe registrar por lo menos una dirección de almacén
+ZZZ_ECOACUICOLA_2911|PL10026184733|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10026537270|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10483299864|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20467089464|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10489619704|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10434746537|(2) bpvs:LC18 - Debe registrar por lo menos una dirección de almacén
+ZZZ_ECOACUICOLA_2911|PL10434077112|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10434789694|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10102659860|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20557069721|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10431391908|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10430529701|(2) bpvs:LC18 - Debe registrar por lo menos una dirección de almacén
+ZZZ_ECOACUICOLA_2911|PL10430832005|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10433313025|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10431837892|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10432367466|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10443631122|(2) bpvs:LC17 - Debe registrar por lo menos un domicilio fiscal
+ZZZ_ECOACUICOLA_2911|PL10036833594|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10434149521|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10439307043|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10426801294|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10093895768|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10424496940|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10467161704|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10423737391|(2) bpvs:LC18 - Debe registrar por lo menos una dirección de almacén
+ZZZ_ECOACUICOLA_2911|PL10423245579|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20103044155|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10428487881|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL20602905145|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10430377430|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20503386730|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10732056322|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10460029894|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10460452568|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10464957516|(2) bpvs:LC18 - Debe registrar por lo menos una dirección de almacén
+ZZZ_ECOACUICOLA_2911|PL10466304081|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20475260199|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10028794792|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10469439793|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20100080002|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10165925969|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10449424706|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10449637408|(2) bpvs:FE03 - La dirección de facturación por defecto debe de tener un ubigueo definido.
+ZZZ_ECOACUICOLA_2911|PL10449941476|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10449987158|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10028274934|(2) bpvs:LC18 - Debe registrar por lo menos una dirección de almacén
+ZZZ_ECOACUICOLA_2911|PL10444907016|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10447368906|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10445660499|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10446951799|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10456752778|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10026717502|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10035071097|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20154477374|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10459044880|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10459456061|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10026718541|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10457548538|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10451721009|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10403483007|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10035793521|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL20601547300|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10068076108|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL15604723202|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20600226585|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10027179270|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20601750792|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10077992770|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10082314135|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20600432258|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10164232781|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20600073711|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10404975949|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10164232790|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20601582113|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL15276280101|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20100044626|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10407671819|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10178637768|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10455178695|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10806631642|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20526016069|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10069748568|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10409429390|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10181807836|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10031332406|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10032004631|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10327640629|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10081856236|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10459259771|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20484284441|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10424692285|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10485028957|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10464436940|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10472914176|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10705441435|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10077006309|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10437397959|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10459017033|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10468575375|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10471940475|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10461458888|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10463178726|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10478084167|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20484133230|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL20100268575|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10719618320|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10413019970|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10426887792|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10076062434|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10408103831|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20483835648|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL20100171814|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL20526637764|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10256542256|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10430382441|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10445490101|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20100043140|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL20526393369|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10412443140|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20526375034|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10460323032|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20100176450|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL20100365341|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL20555949708|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10165907812|(2) bpvs:FE03 - La dirección de facturación por defecto debe de tener un ubigueo definido.
+ZZZ_ECOACUICOLA_2911|PL20501842771|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL20543499391|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL20522974944|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL20529983281|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL20549521984|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10028243958|(2) bpvs:FE03 - La dirección de facturación por defecto debe de tener un ubigueo definido.
+ZZZ_ECOACUICOLA_2911|PL10027791722|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10027712083|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10405539301|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10411149418|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10027925915|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10027853108|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10027833948|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10027845695|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10027878704|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10027873711|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10026844890|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10026854119|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10180975417|(2) bpvs:LC18 - Debe registrar por lo menos una dirección de almacén
+ZZZ_ECOACUICOLA_2911|PL10028508714|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20550502446|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10026727109|(2) bpvs:FE03 - La dirección de facturación por defecto debe de tener un ubigueo definido.
+ZZZ_ECOACUICOLA_2911|PL20477240152|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10027233169|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10027082357|(2) bpvs:LC18 - Debe registrar por lo menos una dirección de almacén
+ZZZ_ECOACUICOLA_2911|PL10028569551|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10028613101|(2) bpvs:LC11 - Si es persona natural el campo Nombre debe contener los campos de usuario Ape.Paterno + Ape.Materno + Nombres + Segundo Nombre
+ZZZ_ECOACUICOLA_2911|PL10028432114|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20492092313|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10028484882|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10026553283|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10028078914|(2) bpvs:LC18 - Debe registrar por lo menos una dirección de almacén
+ZZZ_ECOACUICOLA_2911|PL10028090604|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10028319041|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10028291863|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10028339998|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|P20601899591|(2) bpvs:LC05 - EL prefijo del codigo para proveedores debe ser PL (Proveedor Local) o PE (Proveedor Extranjero)
+ZZZ_ECOACUICOLA_2911|PL10028229581|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20486591529|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10002538381|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL10026670441|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"
+ZZZ_ECOACUICOLA_2911|PL20600133561|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10410388770|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10002360638|(2) bpvs:LC20 - En la pestaña Direcciones, debe llenar los campos "Calle/Número", "Distrito", "Ciudad", "Departamento" de todas las direcciones
+ZZZ_ECOACUICOLA_2911|PL10002165363|(2) bpvs:LC12 - Si se trata de una Persona Natural con RUC sin Negocio, en la pestaña de Finanzas debe colocar el tipo de impuesto "Extranjero"

@@ -1,0 +1,533 @@
+2022-04-13 18:49:17,167 INFO : Inicializando Servicio
+2022-04-13 18:49:17,881 INFO : Tipo de Cambio SBS obtenido para el día 13/04/2022: V 3.736 C 3.728
+2022-04-13 18:49:18,307 INFO : Procesando TC
+2022-04-13 18:49:18,308 INFO : Conectando a la BD SBO_COSOL
+2022-04-13 18:49:20,294 INFO : Conectado satisfactoriamente
+2022-04-13 18:49:20,294 INFO : Actualizando Tipo de Cambio
+2022-04-13 18:49:20,323 INFO : El tipo de cambio del día 13/04/2022 ya se encuentra actualizado
+2022-04-13 18:49:20,336 INFO : Desconectando de la BD SBO_COSOL
+2022-04-13 18:49:22,908 INFO : Procesando socios
+2022-04-13 18:49:22,908 INFO : Conectando a la BD SBO_COSOL
+2022-04-13 18:49:25,005 INFO : Conectado satisfactoriamente
+2022-04-13 18:49:25,013 INFO : Iniciando el Proceso
+2022-04-13 18:49:25,014 INFO : Procesando RUC individual
+2022-04-13 18:49:28,351 INFO : Buscando socios
+2022-04-13 18:49:28,424 INFO : Encontrados 10
+2022-04-13 18:49:28,429 DEBUG: RUC encontrados: 10036641563,10036842895,10061066662,10067947792,10074300818,10075363686,10076367766,10094227092,10103246224,10430324816
+2022-04-13 18:49:58,806 INFO : Inicializando Servicio
+2022-04-13 18:49:59,808 INFO : Tipo de Cambio SBS obtenido para el día 13/04/2022: V 3.736 C 3.728
+2022-04-13 18:50:00,308 INFO : Procesando TC
+2022-04-13 18:50:00,309 INFO : Conectando a la BD SBO_COSOL
+2022-04-13 18:50:02,585 INFO : Conectado satisfactoriamente
+2022-04-13 18:50:02,586 INFO : Actualizando Tipo de Cambio
+2022-04-13 18:50:02,622 INFO : El tipo de cambio del día 13/04/2022 ya se encuentra actualizado
+2022-04-13 18:50:02,638 INFO : Desconectando de la BD SBO_COSOL
+2022-04-13 18:50:05,003 INFO : Procesando socios
+2022-04-13 18:50:05,003 INFO : Conectando a la BD SBO_COSOL
+2022-04-13 18:50:06,967 INFO : Conectado satisfactoriamente
+2022-04-13 18:50:06,974 INFO : Iniciando el Proceso
+2022-04-13 18:50:06,975 INFO : Procesando RUC individual
+2022-04-13 18:50:10,233 INFO : Buscando socios
+2022-04-13 18:50:10,281 INFO : Encontrados 20
+2022-04-13 18:50:10,286 DEBUG: RUC encontrados: 10000145799,10036641563,10036842895,10061066662,10067947792,10074300818,10075363686,10076367766,10094227092,10103246224,10104707756,10106645162,10107710685,10402730710,10415869181,10416323572,10430324816,10433117587,10436009394,10444103375
+2022-04-13 18:50:11,336 INFO : Procesando 20 números de RUC
+2022-04-13 18:50:25,131 INFO : RUC del 1 al 10
+2022-04-13 18:50:27,700 DEBUG: Iniciando validacion
+2022-04-13 18:50:27,705 DEBUG: Revisando en BD RUC: 10000145799
+2022-04-13 18:50:27,785 DEBUG: Revisando ruc: 10000145799
+2022-04-13 18:50:27,821 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:50:27,886 DEBUG: No se encontraron diferencias
+2022-04-13 18:50:27,894 DEBUG: Validacion finalizada
+2022-04-13 18:50:27,894 DEBUG: Iniciando validacion
+2022-04-13 18:50:27,895 DEBUG: Revisando en BD RUC: 10036641563
+2022-04-13 18:50:27,954 DEBUG: Revisando ruc: 10036641563
+2022-04-13 18:50:27,968 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:50:27,991 DEBUG: No se encontraron diferencias
+2022-04-13 18:50:27,996 DEBUG: Validacion finalizada
+2022-04-13 18:50:27,996 DEBUG: Iniciando validacion
+2022-04-13 18:50:27,996 DEBUG: Revisando en BD RUC: 10036842895
+2022-04-13 18:50:28,083 DEBUG: Revisando ruc: 10036842895
+2022-04-13 18:50:28,100 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:50:28,129 DEBUG: No se encontraron diferencias
+2022-04-13 18:50:28,136 DEBUG: Validacion finalizada
+2022-04-13 18:50:28,137 DEBUG: Iniciando validacion
+2022-04-13 18:50:28,137 DEBUG: Revisando en BD RUC: 10061066662
+2022-04-13 18:50:28,230 DEBUG: Revisando ruc: 10061066662
+2022-04-13 18:50:28,248 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:50:28,274 DEBUG: No se encontraron diferencias
+2022-04-13 18:50:28,279 DEBUG: Validacion finalizada
+2022-04-13 18:50:28,279 DEBUG: Iniciando validacion
+2022-04-13 18:50:28,280 DEBUG: Revisando en BD RUC: 10067947792
+2022-04-13 18:50:28,344 DEBUG: Revisando ruc: 10067947792
+2022-04-13 18:50:28,359 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:50:28,381 DEBUG: No se encontraron diferencias
+2022-04-13 18:50:28,386 DEBUG: Validacion finalizada
+2022-04-13 18:50:28,386 DEBUG: Iniciando validacion
+2022-04-13 18:50:28,387 DEBUG: Revisando en BD RUC: 10074300818
+2022-04-13 18:50:28,439 DEBUG: Revisando ruc: 10074300818
+2022-04-13 18:50:28,454 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:50:28,477 DEBUG: No se encontraron diferencias
+2022-04-13 18:50:28,483 DEBUG: Validacion finalizada
+2022-04-13 18:50:28,483 DEBUG: Iniciando validacion
+2022-04-13 18:50:28,484 DEBUG: Revisando en BD RUC: 10075363686
+2022-04-13 18:50:28,548 DEBUG: Revisando ruc: 10075363686
+2022-04-13 18:50:28,563 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:50:28,586 DEBUG: No se encontraron diferencias
+2022-04-13 18:50:28,591 DEBUG: Validacion finalizada
+2022-04-13 18:50:28,591 DEBUG: Iniciando validacion
+2022-04-13 18:50:28,592 DEBUG: Revisando en BD RUC: 10076367766
+2022-04-13 18:50:28,655 DEBUG: Revisando ruc: 10076367766
+2022-04-13 18:50:28,670 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:50:28,692 DEBUG: No se encontraron diferencias
+2022-04-13 18:50:28,697 DEBUG: Validacion finalizada
+2022-04-13 18:50:28,697 DEBUG: Iniciando validacion
+2022-04-13 18:50:28,698 DEBUG: Revisando en BD RUC: 10094227092
+2022-04-13 18:50:28,755 DEBUG: Revisando ruc: 10094227092
+2022-04-13 18:50:28,769 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:50:28,793 DEBUG: No se encontraron diferencias
+2022-04-13 18:50:28,798 DEBUG: Validacion finalizada
+2022-04-13 18:50:28,798 DEBUG: Iniciando validacion
+2022-04-13 18:50:28,798 DEBUG: Revisando en BD RUC: 10103246224
+2022-04-13 18:50:28,861 DEBUG: Revisando ruc: 10103246224
+2022-04-13 18:50:28,877 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:50:28,908 DEBUG: No se encontraron diferencias
+2022-04-13 18:50:28,913 DEBUG: Validacion finalizada
+2022-04-13 18:50:28,914 INFO : Resultado: 10 correctos, 0 errores, 0 inválidos, 0 Socios Procesados -  Total Acumulado: 0
+2022-04-13 18:50:28,914 INFO : RUC del 11 al 20
+2022-04-13 18:50:31,451 DEBUG: Iniciando validacion
+2022-04-13 18:50:31,452 DEBUG: Revisando en BD RUC: 10104707756
+2022-04-13 18:50:31,517 DEBUG: Revisando ruc: 10104707756
+2022-04-13 18:50:31,533 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:50:31,555 DEBUG: No se encontraron diferencias
+2022-04-13 18:50:31,560 DEBUG: Validacion finalizada
+2022-04-13 18:50:31,561 DEBUG: Iniciando validacion
+2022-04-13 18:50:31,561 DEBUG: Revisando en BD RUC: 10106645162
+2022-04-13 18:50:31,632 DEBUG: Revisando ruc: 10106645162
+2022-04-13 18:50:31,650 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:50:31,673 DEBUG: No se encontraron diferencias
+2022-04-13 18:50:31,678 DEBUG: Validacion finalizada
+2022-04-13 18:50:31,679 DEBUG: Iniciando validacion
+2022-04-13 18:50:31,679 DEBUG: Revisando en BD RUC: 10107710685
+2022-04-13 18:50:31,748 DEBUG: Revisando ruc: 10107710685
+2022-04-13 18:50:31,762 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:50:31,785 DEBUG: No se encontraron diferencias
+2022-04-13 18:50:31,791 DEBUG: Validacion finalizada
+2022-04-13 18:50:31,791 DEBUG: Iniciando validacion
+2022-04-13 18:50:31,792 DEBUG: Revisando en BD RUC: 10402730710
+2022-04-13 18:50:31,844 DEBUG: Revisando ruc: 10402730710
+2022-04-13 18:50:31,858 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:50:31,890 DEBUG: No se encontraron diferencias
+2022-04-13 18:50:31,895 DEBUG: Validacion finalizada
+2022-04-13 18:50:31,896 DEBUG: Iniciando validacion
+2022-04-13 18:50:31,896 DEBUG: Revisando en BD RUC: 10415869181
+2022-04-13 18:50:31,959 DEBUG: Revisando ruc: 10415869181
+2022-04-13 18:50:31,973 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:50:31,996 DEBUG: No se encontraron diferencias
+2022-04-13 18:50:32,001 DEBUG: Validacion finalizada
+2022-04-13 18:50:32,001 DEBUG: Iniciando validacion
+2022-04-13 18:50:32,001 DEBUG: Revisando en BD RUC: 10416323572
+2022-04-13 18:50:32,063 DEBUG: Revisando ruc: 10416323572
+2022-04-13 18:50:32,077 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:50:32,098 DEBUG: No se encontraron diferencias
+2022-04-13 18:50:32,105 DEBUG: Validacion finalizada
+2022-04-13 18:50:32,105 DEBUG: Iniciando validacion
+2022-04-13 18:50:32,106 DEBUG: Revisando en BD RUC: 10430324816
+2022-04-13 18:50:32,160 DEBUG: Revisando ruc: 10430324816
+2022-04-13 18:50:32,178 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:50:32,350 ERROR: Error al actualizar: CardCode-10430324816 - -1116: (2) bpvs:LC00205 - EL prefijo del codigo para proveedores debe ser PL (Proveedor Local) o PE (Proveedor Extranjero)
+2022-04-13 18:50:32,357 DEBUG: Revisando ruc: 10430324816
+2022-04-13 18:50:32,380 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:50:32,534 ERROR: Error al actualizar: CardCode-PL10430324816 - -1116: (2) bpvs:LC00216 - No puede existir dos Clientes o Proveedores con el mismo número de documento
+2022-04-13 18:50:32,540 DEBUG: Validacion finalizada
+2022-04-13 18:50:32,540 DEBUG: Iniciando validacion
+2022-04-13 18:50:32,541 DEBUG: Revisando en BD RUC: 10433117587
+2022-04-13 18:50:32,618 DEBUG: Revisando ruc: 10433117587
+2022-04-13 18:50:32,633 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:50:32,656 DEBUG: No se encontraron diferencias
+2022-04-13 18:50:32,661 DEBUG: Validacion finalizada
+2022-04-13 18:50:32,662 DEBUG: Iniciando validacion
+2022-04-13 18:50:32,662 DEBUG: Revisando en BD RUC: 10436009394
+2022-04-13 18:50:32,717 DEBUG: Revisando ruc: 10436009394
+2022-04-13 18:50:32,731 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:50:32,756 DEBUG: No se encontraron diferencias
+2022-04-13 18:50:32,761 DEBUG: Validacion finalizada
+2022-04-13 18:50:32,762 DEBUG: Iniciando validacion
+2022-04-13 18:50:32,762 DEBUG: Revisando en BD RUC: 10444103375
+2022-04-13 18:50:32,822 DEBUG: Revisando ruc: 10444103375
+2022-04-13 18:50:32,837 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:50:32,863 DEBUG: No se encontraron diferencias
+2022-04-13 18:50:32,868 DEBUG: Validacion finalizada
+2022-04-13 18:50:32,868 INFO : Resultado: 9 correctos, 1 errores, 0 inválidos, 0 Socios Procesados -  Total Acumulado: 0
+2022-04-13 18:50:32,869 INFO : Finalizando el Proceso
+2022-04-13 18:50:32,880 INFO : Desconectando de la BD SBO_COSOL
+2022-04-13 18:50:34,561 INFO : Tiempo total de ejecución: 00:00:35.6681501
+2022-04-13 18:50:34,562 INFO : Eliminando temporales
+2022-04-13 18:52:44,085 INFO : Inicializando Servicio
+2022-04-13 18:52:44,788 INFO : Tipo de Cambio SBS obtenido para el día 13/04/2022: V 3.736 C 3.728
+2022-04-13 18:52:45,208 INFO : Procesando TC
+2022-04-13 18:52:45,208 INFO : Conectando a la BD SBO_COSOL
+2022-04-13 18:52:47,329 INFO : Conectado satisfactoriamente
+2022-04-13 18:52:47,329 INFO : Actualizando Tipo de Cambio
+2022-04-13 18:52:47,368 INFO : El tipo de cambio del día 13/04/2022 ya se encuentra actualizado
+2022-04-13 18:52:47,382 INFO : Desconectando de la BD SBO_COSOL
+2022-04-13 18:52:49,894 INFO : Procesando socios
+2022-04-13 18:52:49,894 INFO : Conectando a la BD SBO_COSOL
+2022-04-13 18:52:51,765 INFO : Conectado satisfactoriamente
+2022-04-13 18:52:51,779 INFO : Iniciando el Proceso
+2022-04-13 18:52:51,781 INFO : Procesando RUC individual
+2022-04-13 18:53:17,504 INFO : Buscando socios
+2022-04-13 18:53:17,584 INFO : Encontrados 7
+2022-04-13 18:53:17,589 DEBUG: RUC encontrados: 10082328683,10082473446,10410633065,10414011239,10446005681,10469271035,10469899590
+2022-04-13 18:53:22,055 INFO : Procesando 7 números de RUC
+2022-04-13 18:53:22,055 INFO : RUC del 1 al 7
+2022-04-13 18:53:23,480 DEBUG: Iniciando validacion
+2022-04-13 18:53:23,485 DEBUG: Revisando en BD RUC: 10082328683
+2022-04-13 18:53:23,582 DEBUG: Revisando ruc: 10082328683
+2022-04-13 18:53:23,620 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:53:23,676 DEBUG: No se encontraron diferencias
+2022-04-13 18:53:23,683 DEBUG: Validacion finalizada
+2022-04-13 18:53:23,683 DEBUG: Iniciando validacion
+2022-04-13 18:53:23,684 DEBUG: Revisando en BD RUC: 10082473446
+2022-04-13 18:53:23,753 DEBUG: Revisando ruc: 10082473446
+2022-04-13 18:53:23,769 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:53:23,792 DEBUG: No se encontraron diferencias
+2022-04-13 18:53:23,797 DEBUG: Validacion finalizada
+2022-04-13 18:53:23,798 DEBUG: Iniciando validacion
+2022-04-13 18:53:23,798 DEBUG: Revisando en BD RUC: 10410633065
+2022-04-13 18:53:23,867 DEBUG: Revisando ruc: 10410633065
+2022-04-13 18:53:23,882 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:53:23,906 DEBUG: No se encontraron diferencias
+2022-04-13 18:53:23,911 DEBUG: Validacion finalizada
+2022-04-13 18:53:23,911 DEBUG: Iniciando validacion
+2022-04-13 18:53:23,912 DEBUG: Revisando en BD RUC: 10414011239
+2022-04-13 18:53:23,982 DEBUG: Revisando ruc: 10414011239
+2022-04-13 18:53:23,997 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:53:24,020 DEBUG: No se encontraron diferencias
+2022-04-13 18:53:24,027 DEBUG: Validacion finalizada
+2022-04-13 18:53:24,028 DEBUG: Iniciando validacion
+2022-04-13 18:53:24,028 DEBUG: Revisando en BD RUC: 10446005681
+2022-04-13 18:53:24,094 DEBUG: Revisando ruc: 10446005681
+2022-04-13 18:53:24,109 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:53:24,135 DEBUG: No se encontraron diferencias
+2022-04-13 18:53:24,140 DEBUG: Validacion finalizada
+2022-04-13 18:53:24,141 DEBUG: Iniciando validacion
+2022-04-13 18:53:24,141 DEBUG: Revisando en BD RUC: 10469271035
+2022-04-13 18:53:24,211 DEBUG: Revisando ruc: 10469271035
+2022-04-13 18:53:24,226 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:53:24,249 DEBUG: No se encontraron diferencias
+2022-04-13 18:53:24,256 DEBUG: Validacion finalizada
+2022-04-13 18:53:24,256 DEBUG: Iniciando validacion
+2022-04-13 18:53:24,257 DEBUG: Revisando en BD RUC: 10469899590
+2022-04-13 18:53:24,334 DEBUG: Revisando ruc: 10469899590
+2022-04-13 18:53:24,350 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:53:24,372 DEBUG: No se encontraron diferencias
+2022-04-13 18:53:24,377 DEBUG: Validacion finalizada
+2022-04-13 18:53:24,378 INFO : Resultado: 7 correctos, 0 errores, 0 inválidos, 0 Socios Procesados -  Total Acumulado: 0
+2022-04-13 18:53:24,378 INFO : Finalizando el Proceso
+2022-04-13 18:53:24,388 INFO : Desconectando de la BD SBO_COSOL
+2022-04-13 18:53:26,433 INFO : Tiempo total de ejecución: 00:00:42.2533597
+2022-04-13 18:53:26,434 INFO : Eliminando temporales
+2022-04-13 18:55:36,129 INFO : Inicializando Servicio
+2022-04-13 18:55:36,866 INFO : Tipo de Cambio SBS obtenido para el día 13/04/2022: V 3.736 C 3.728
+2022-04-13 18:55:37,286 INFO : Procesando TC
+2022-04-13 18:55:37,287 INFO : Conectando a la BD SBO_COSOL
+2022-04-13 18:55:39,283 INFO : Conectado satisfactoriamente
+2022-04-13 18:55:39,283 INFO : Actualizando Tipo de Cambio
+2022-04-13 18:55:39,323 INFO : El tipo de cambio del día 13/04/2022 ya se encuentra actualizado
+2022-04-13 18:55:39,337 INFO : Desconectando de la BD SBO_COSOL
+2022-04-13 18:55:41,905 INFO : Procesando socios
+2022-04-13 18:55:41,905 INFO : Conectando a la BD SBO_COSOL
+2022-04-13 18:55:43,650 INFO : Conectado satisfactoriamente
+2022-04-13 18:55:43,657 INFO : Iniciando el Proceso
+2022-04-13 18:55:43,658 INFO : Procesando RUC individual
+2022-04-13 18:55:49,241 INFO : Buscando socios
+2022-04-13 18:55:49,325 INFO : Encontrados 32
+2022-04-13 18:55:49,330 DEBUG: RUC encontrados: 10000917601,10001043019,10001264406,10001907684,10002000861,10002064206,10002089225,10002089624,10002154965,10002172874,10002184007,10002195254,10002203834,10002206230,10002208577,10002270159,10002294988,10002374418,10002388290,10002401989,10002404481,10002407642,10012037525,10012135624,10012882390,10026310763,10026310968,10026311107,10026311221,10026311859,10462331474,10741184945
+2022-04-13 18:55:55,522 INFO : Procesando 32 números de RUC
+2022-04-13 18:55:55,523 INFO : RUC del 1 al 10
+2022-04-13 18:55:57,822 DEBUG: Iniciando validacion
+2022-04-13 18:55:57,827 DEBUG: Revisando en BD RUC: 10000917601
+2022-04-13 18:55:57,907 DEBUG: Revisando ruc: 10000917601
+2022-04-13 18:55:57,952 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:55:58,012 DEBUG: No se encontraron diferencias
+2022-04-13 18:55:58,020 DEBUG: Validacion finalizada
+2022-04-13 18:55:58,020 DEBUG: Iniciando validacion
+2022-04-13 18:55:58,021 DEBUG: Revisando en BD RUC: 10001043019
+2022-04-13 18:55:58,091 DEBUG: Revisando ruc: 10001043019
+2022-04-13 18:55:58,108 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:55:58,134 DEBUG: No se encontraron diferencias
+2022-04-13 18:55:58,139 DEBUG: Validacion finalizada
+2022-04-13 18:55:58,140 DEBUG: Iniciando validacion
+2022-04-13 18:55:58,140 DEBUG: Revisando en BD RUC: 10001264406
+2022-04-13 18:55:58,190 DEBUG: Revisando ruc: 10001264406
+2022-04-13 18:55:58,206 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:55:58,229 DEBUG: No se encontraron diferencias
+2022-04-13 18:55:58,235 DEBUG: Validacion finalizada
+2022-04-13 18:55:58,235 DEBUG: Iniciando validacion
+2022-04-13 18:55:58,235 DEBUG: Revisando en BD RUC: 10001907684
+2022-04-13 18:55:58,301 DEBUG: Revisando ruc: 10001907684
+2022-04-13 18:55:58,315 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:55:58,339 DEBUG: No se encontraron diferencias
+2022-04-13 18:55:58,344 DEBUG: Validacion finalizada
+2022-04-13 18:55:58,345 DEBUG: Iniciando validacion
+2022-04-13 18:55:58,345 DEBUG: Revisando en BD RUC: 10002000861
+2022-04-13 18:55:58,410 DEBUG: Revisando ruc: 10002000861
+2022-04-13 18:55:58,428 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:55:58,450 DEBUG: No se encontraron diferencias
+2022-04-13 18:55:58,455 DEBUG: Validacion finalizada
+2022-04-13 18:55:58,456 DEBUG: Iniciando validacion
+2022-04-13 18:55:58,456 DEBUG: Revisando en BD RUC: 10002064206
+2022-04-13 18:55:58,518 DEBUG: Revisando ruc: 10002064206
+2022-04-13 18:55:58,532 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:55:58,555 DEBUG: No se encontraron diferencias
+2022-04-13 18:55:58,560 DEBUG: Validacion finalizada
+2022-04-13 18:55:58,560 DEBUG: Iniciando validacion
+2022-04-13 18:55:58,561 DEBUG: Revisando en BD RUC: 10002089225
+2022-04-13 18:55:58,615 DEBUG: Revisando ruc: 10002089225
+2022-04-13 18:55:58,630 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:55:58,655 DEBUG: No se encontraron diferencias
+2022-04-13 18:55:58,660 DEBUG: Validacion finalizada
+2022-04-13 18:55:58,660 DEBUG: Iniciando validacion
+2022-04-13 18:55:58,661 DEBUG: Revisando en BD RUC: 10002089624
+2022-04-13 18:55:58,724 DEBUG: Revisando ruc: 10002089624
+2022-04-13 18:55:58,739 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:55:58,763 DEBUG: No se encontraron diferencias
+2022-04-13 18:55:58,768 DEBUG: Validacion finalizada
+2022-04-13 18:55:58,769 DEBUG: Iniciando validacion
+2022-04-13 18:55:58,769 DEBUG: Revisando en BD RUC: 10002154965
+2022-04-13 18:55:58,846 DEBUG: Revisando ruc: 10002154965
+2022-04-13 18:55:58,862 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:55:58,884 DEBUG: No se encontraron diferencias
+2022-04-13 18:55:58,889 DEBUG: Validacion finalizada
+2022-04-13 18:55:58,890 DEBUG: Iniciando validacion
+2022-04-13 18:55:58,890 DEBUG: Revisando en BD RUC: 10002172874
+2022-04-13 18:55:58,952 DEBUG: Revisando ruc: 10002172874
+2022-04-13 18:55:58,967 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:55:58,987 DEBUG: No se encontraron diferencias
+2022-04-13 18:55:58,994 DEBUG: Revisando ruc: 10002172874
+2022-04-13 18:55:59,016 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:55:59,040 DEBUG: No se encontraron diferencias
+2022-04-13 18:55:59,045 DEBUG: Validacion finalizada
+2022-04-13 18:55:59,045 INFO : Resultado: 10 correctos, 0 errores, 0 inválidos, 0 Socios Procesados -  Total Acumulado: 0
+2022-04-13 18:55:59,046 INFO : RUC del 11 al 20
+2022-04-13 18:56:00,842 DEBUG: Iniciando validacion
+2022-04-13 18:56:00,843 DEBUG: Revisando en BD RUC: 10002184007
+2022-04-13 18:56:00,911 DEBUG: Revisando ruc: 10002184007
+2022-04-13 18:56:00,926 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:56:00,949 DEBUG: No se encontraron diferencias
+2022-04-13 18:56:00,956 DEBUG: Revisando ruc: 10002184007
+2022-04-13 18:56:00,971 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:56:00,995 DEBUG: No se encontraron diferencias
+2022-04-13 18:56:01,000 DEBUG: Validacion finalizada
+2022-04-13 18:56:01,000 DEBUG: Iniciando validacion
+2022-04-13 18:56:01,001 DEBUG: Revisando en BD RUC: 10002195254
+2022-04-13 18:56:01,079 DEBUG: Revisando ruc: 10002195254
+2022-04-13 18:56:01,093 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:56:01,116 DEBUG: No se encontraron diferencias
+2022-04-13 18:56:01,121 DEBUG: Validacion finalizada
+2022-04-13 18:56:01,121 DEBUG: Iniciando validacion
+2022-04-13 18:56:01,122 DEBUG: Revisando en BD RUC: 10002203834
+2022-04-13 18:56:01,179 DEBUG: Revisando ruc: 10002203834
+2022-04-13 18:56:01,194 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:56:01,217 DEBUG: No se encontraron diferencias
+2022-04-13 18:56:01,222 DEBUG: Validacion finalizada
+2022-04-13 18:56:01,222 DEBUG: Iniciando validacion
+2022-04-13 18:56:01,223 DEBUG: Revisando en BD RUC: 10002206230
+2022-04-13 18:56:01,295 DEBUG: Revisando ruc: 10002206230
+2022-04-13 18:56:01,295 DEBUG: 20060901
+2022-04-13 18:56:01,313 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:56:01,335 DEBUG: No se encontraron diferencias
+2022-04-13 18:56:01,344 DEBUG: Revisando ruc: 10002206230
+2022-04-13 18:56:01,344 DEBUG: 20060901
+2022-04-13 18:56:01,363 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:56:01,385 DEBUG: No se encontraron diferencias
+2022-04-13 18:56:01,390 DEBUG: Validacion finalizada
+2022-04-13 18:56:01,390 DEBUG: Iniciando validacion
+2022-04-13 18:56:01,391 DEBUG: Revisando en BD RUC: 10002208577
+2022-04-13 18:56:01,472 DEBUG: Revisando ruc: 10002208577
+2022-04-13 18:56:01,488 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:56:01,510 DEBUG: No se encontraron diferencias
+2022-04-13 18:56:01,515 DEBUG: Validacion finalizada
+2022-04-13 18:56:01,516 DEBUG: Iniciando validacion
+2022-04-13 18:56:01,516 DEBUG: Revisando en BD RUC: 10002270159
+2022-04-13 18:56:01,577 DEBUG: Revisando ruc: 10002270159
+2022-04-13 18:56:01,591 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:56:01,613 DEBUG: No se encontraron diferencias
+2022-04-13 18:56:01,618 DEBUG: Validacion finalizada
+2022-04-13 18:56:01,619 DEBUG: Iniciando validacion
+2022-04-13 18:56:01,619 DEBUG: Revisando en BD RUC: 10002294988
+2022-04-13 18:56:01,687 DEBUG: Revisando ruc: 10002294988
+2022-04-13 18:56:01,704 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:56:01,729 DEBUG: No se encontraron diferencias
+2022-04-13 18:56:01,736 DEBUG: Revisando ruc: 10002294988
+2022-04-13 18:56:01,752 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:56:01,774 DEBUG: No se encontraron diferencias
+2022-04-13 18:56:01,779 DEBUG: Validacion finalizada
+2022-04-13 18:56:01,779 DEBUG: Iniciando validacion
+2022-04-13 18:56:01,779 DEBUG: Revisando en BD RUC: 10002374418
+2022-04-13 18:56:01,832 DEBUG: Revisando ruc: 10002374418
+2022-04-13 18:56:01,847 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:56:01,872 DEBUG: No se encontraron diferencias
+2022-04-13 18:56:01,877 DEBUG: Validacion finalizada
+2022-04-13 18:56:01,878 DEBUG: Iniciando validacion
+2022-04-13 18:56:01,878 DEBUG: Revisando en BD RUC: 10002388290
+2022-04-13 18:56:01,948 DEBUG: Revisando ruc: 10002388290
+2022-04-13 18:56:01,963 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:56:01,985 DEBUG: No se encontraron diferencias
+2022-04-13 18:56:01,992 DEBUG: Revisando ruc: 10002388290
+2022-04-13 18:56:02,008 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:56:02,032 DEBUG: No se encontraron diferencias
+2022-04-13 18:56:02,037 DEBUG: Validacion finalizada
+2022-04-13 18:56:02,037 DEBUG: Iniciando validacion
+2022-04-13 18:56:02,038 DEBUG: Revisando en BD RUC: 10002401989
+2022-04-13 18:56:02,103 DEBUG: Revisando ruc: 10002401989
+2022-04-13 18:56:02,119 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:56:02,141 DEBUG: No se encontraron diferencias
+2022-04-13 18:56:02,147 DEBUG: Validacion finalizada
+2022-04-13 18:56:02,147 INFO : Resultado: 10 correctos, 0 errores, 0 inválidos, 0 Socios Procesados -  Total Acumulado: 0
+2022-04-13 18:56:02,147 INFO : RUC del 21 al 30
+2022-04-13 18:56:03,819 DEBUG: Iniciando validacion
+2022-04-13 18:56:03,819 DEBUG: Revisando en BD RUC: 10002404481
+2022-04-13 18:56:03,880 DEBUG: Revisando ruc: 10002404481
+2022-04-13 18:56:03,901 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:56:03,925 DEBUG: No se encontraron diferencias
+2022-04-13 18:56:03,930 DEBUG: Validacion finalizada
+2022-04-13 18:56:03,931 DEBUG: Iniciando validacion
+2022-04-13 18:56:03,931 DEBUG: Revisando en BD RUC: 10002407642
+2022-04-13 18:56:03,991 DEBUG: Revisando ruc: 10002407642
+2022-04-13 18:56:04,006 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:56:04,029 DEBUG: No se encontraron diferencias
+2022-04-13 18:56:04,034 DEBUG: Validacion finalizada
+2022-04-13 18:56:04,035 DEBUG: Iniciando validacion
+2022-04-13 18:56:04,035 DEBUG: Revisando en BD RUC: 10012037525
+2022-04-13 18:56:04,100 DEBUG: Revisando ruc: 10012037525
+2022-04-13 18:56:04,101 DEBUG: 20220201
+2022-04-13 18:56:04,118 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:56:04,140 DEBUG: No se encontraron diferencias
+2022-04-13 18:56:04,145 DEBUG: Validacion finalizada
+2022-04-13 18:56:04,146 DEBUG: Iniciando validacion
+2022-04-13 18:56:04,146 DEBUG: Revisando en BD RUC: 10012135624
+2022-04-13 18:56:04,205 DEBUG: Revisando ruc: 10012135624
+2022-04-13 18:56:04,220 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:56:04,243 DEBUG: No se encontraron diferencias
+2022-04-13 18:56:04,249 DEBUG: Validacion finalizada
+2022-04-13 18:56:04,249 DEBUG: Iniciando validacion
+2022-04-13 18:56:04,250 DEBUG: Revisando en BD RUC: 10012882390
+2022-04-13 18:56:04,330 DEBUG: Revisando ruc: 10012882390
+2022-04-13 18:56:04,348 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:56:04,370 DEBUG: No se encontraron diferencias
+2022-04-13 18:56:04,375 DEBUG: Validacion finalizada
+2022-04-13 18:56:04,376 DEBUG: Iniciando validacion
+2022-04-13 18:56:04,376 DEBUG: Revisando en BD RUC: 10026310763
+2022-04-13 18:56:04,443 DEBUG: Revisando ruc: 10026310763
+2022-04-13 18:56:04,443 DEBUG: 20220201
+2022-04-13 18:56:04,458 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:56:04,480 DEBUG: No se encontraron diferencias
+2022-04-13 18:56:04,487 DEBUG: Revisando ruc: 10026310763
+2022-04-13 18:56:04,487 DEBUG: 20220201
+2022-04-13 18:56:04,503 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:56:04,526 DEBUG: No se encontraron diferencias
+2022-04-13 18:56:04,531 DEBUG: Validacion finalizada
+2022-04-13 18:56:04,531 DEBUG: Iniciando validacion
+2022-04-13 18:56:04,532 DEBUG: Revisando en BD RUC: 10026310968
+2022-04-13 18:56:04,603 DEBUG: Revisando ruc: 10026310968
+2022-04-13 18:56:04,619 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:56:04,641 DEBUG: No se encontraron diferencias
+2022-04-13 18:56:04,646 DEBUG: Validacion finalizada
+2022-04-13 18:56:04,647 DEBUG: Iniciando validacion
+2022-04-13 18:56:04,647 DEBUG: Revisando en BD RUC: 10026311107
+2022-04-13 18:56:04,709 DEBUG: Revisando ruc: 10026311107
+2022-04-13 18:56:04,709 DEBUG: 20180901
+2022-04-13 18:56:04,725 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:56:04,747 DEBUG: No se encontraron diferencias
+2022-04-13 18:56:04,753 DEBUG: Validacion finalizada
+2022-04-13 18:56:04,753 DEBUG: Iniciando validacion
+2022-04-13 18:56:04,753 DEBUG: Revisando en BD RUC: 10026311221
+2022-04-13 18:56:04,837 DEBUG: Revisando ruc: 10026311221
+2022-04-13 18:56:04,852 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:56:04,874 DEBUG: No se encontraron diferencias
+2022-04-13 18:56:04,879 DEBUG: Validacion finalizada
+2022-04-13 18:56:04,880 DEBUG: Iniciando validacion
+2022-04-13 18:56:04,880 DEBUG: Revisando en BD RUC: 10026311859
+2022-04-13 18:56:04,946 DEBUG: Revisando ruc: 10026311859
+2022-04-13 18:56:04,961 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:56:04,983 DEBUG: No se encontraron diferencias
+2022-04-13 18:56:04,988 DEBUG: Validacion finalizada
+2022-04-13 18:56:04,988 INFO : Resultado: 10 correctos, 0 errores, 0 inválidos, 0 Socios Procesados -  Total Acumulado: 0
+2022-04-13 18:56:04,988 INFO : RUC del 31 al 32
+2022-04-13 18:56:05,835 DEBUG: Iniciando validacion
+2022-04-13 18:56:05,835 DEBUG: Revisando en BD RUC: 10462331474
+2022-04-13 18:56:05,893 DEBUG: Revisando ruc: 10462331474
+2022-04-13 18:56:05,907 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:56:05,929 DEBUG: No se encontraron diferencias
+2022-04-13 18:56:05,936 DEBUG: Validacion finalizada
+2022-04-13 18:56:05,936 DEBUG: Iniciando validacion
+2022-04-13 18:56:05,936 DEBUG: Revisando en BD RUC: 10741184945
+2022-04-13 18:56:06,013 DEBUG: Revisando ruc: 10741184945
+2022-04-13 18:56:06,027 DEBUG: Comparando SUNAT con BD
+2022-04-13 18:56:06,049 DEBUG: No se encontraron diferencias
+2022-04-13 18:56:06,054 DEBUG: Validacion finalizada
+2022-04-13 18:56:06,055 INFO : Resultado: 2 correctos, 0 errores, 0 inválidos, 0 Socios Procesados -  Total Acumulado: 0
+2022-04-13 18:56:06,055 INFO : Finalizando el Proceso
+2022-04-13 18:56:06,065 INFO : Desconectando de la BD SBO_COSOL
+2022-04-13 18:56:08,242 INFO : Tiempo total de ejecución: 00:00:32.0132688
+2022-04-13 18:56:08,242 INFO : Eliminando temporales
+2022-04-13 18:59:01,954 INFO : Inicializando Servicio
+2022-04-13 18:59:02,998 INFO : Tipo de Cambio SBS obtenido para el día 13/04/2022: V 3.736 C 3.728
+2022-04-13 18:59:03,439 INFO : Procesando TC
+2022-04-13 18:59:03,439 INFO : Conectando a la BD SBO_COSOL
+2022-04-13 18:59:05,923 INFO : Conectado satisfactoriamente
+2022-04-13 18:59:05,923 INFO : Actualizando Tipo de Cambio
+2022-04-13 18:59:05,956 INFO : El tipo de cambio del día 13/04/2022 ya se encuentra actualizado
+2022-04-13 18:59:05,970 INFO : Desconectando de la BD SBO_COSOL
+2022-04-13 18:59:08,235 INFO : Procesando socios
+2022-04-13 18:59:08,235 INFO : Conectando a la BD SBO_COSOL
+2022-04-13 18:59:10,138 INFO : Conectado satisfactoriamente
+2022-04-13 18:59:10,145 INFO : Iniciando el Proceso
+2022-04-13 18:59:10,147 INFO : Procesando RUC individual
+2022-04-13 18:59:42,779 INFO : Buscando socios
+2022-04-13 18:59:42,903 INFO : Encontrados 1
+2022-04-13 18:59:42,907 DEBUG: RUC encontrados: 10002026932
+2022-04-13 18:59:47,930 INFO : Procesando 1 números de RUC
+2022-04-13 19:00:08,703 INFO : RUC del 1 al 1
+2022-04-13 19:00:37,050 DEBUG: Iniciando validacion
+2022-04-13 19:00:43,723 DEBUG: Revisando en BD RUC: 10002026932
+2022-04-13 19:01:12,738 DEBUG: Revisando ruc: 10002026932
+2022-04-13 19:01:36,179 WARN : Error al actualizar nombres/apellidos:CServiceData::SetPropertyValueString failed; Value too long in property 'U_BPP_BPN2' of 'BusinessPartner'
+2022-04-13 19:01:36,185 DEBUG: Comparando SUNAT con BD
+2022-04-13 19:01:36,483 INFO : PL10002026932 actualizado
+2022-04-13 19:01:36,489 DEBUG: Validacion finalizada
+2022-04-13 19:01:36,490 INFO : Resultado: 1 correctos, 0 errores, 0 inválidos, 1 Socios Procesados -  Total Acumulado: 1
+2022-04-13 19:01:36,490 INFO : Finalizando el Proceso
+2022-04-13 19:01:36,500 INFO : Desconectando de la BD SBO_COSOL
+2022-04-13 19:01:38,038 INFO : Tiempo total de ejecución: 00:02:36.0040829
+2022-04-13 19:01:38,038 INFO : Eliminando temporales
+2022-04-13 19:04:58,853 INFO : Inicializando Servicio
+2022-04-13 19:04:59,653 INFO : Tipo de Cambio SBS obtenido para el día 13/04/2022: V 3.736 C 3.728
+2022-04-13 19:05:00,082 INFO : Procesando TC
+2022-04-13 19:05:00,082 INFO : Conectando a la BD SBO_COSOL
+2022-04-13 19:05:02,313 INFO : Conectado satisfactoriamente
+2022-04-13 19:05:02,313 INFO : Actualizando Tipo de Cambio
+2022-04-13 19:05:02,343 INFO : El tipo de cambio del día 13/04/2022 ya se encuentra actualizado
+2022-04-13 19:05:02,358 INFO : Desconectando de la BD SBO_COSOL
+2022-04-13 19:05:04,859 INFO : Procesando socios
+2022-04-13 19:05:04,859 INFO : Conectando a la BD SBO_COSOL
+2022-04-13 19:05:06,785 INFO : Conectado satisfactoriamente
+2022-04-13 19:05:06,793 INFO : Iniciando el Proceso
+2022-04-13 19:05:06,794 INFO : Procesando RUC individual
+2022-04-13 19:05:10,226 INFO : Buscando socios
+2022-04-13 19:05:10,332 INFO : Encontrados 1
+2022-04-13 19:05:10,337 DEBUG: RUC encontrados: 10002025863
+2022-04-13 19:05:11,138 INFO : Procesando 1 números de RUC
+2022-04-13 19:05:17,787 INFO : RUC del 1 al 1
+2022-04-13 19:05:18,851 DEBUG: Iniciando validacion
+2022-04-13 19:05:18,855 DEBUG: Revisando en BD RUC: 10002025863
+2022-04-13 19:05:18,963 DEBUG: Revisando ruc: 10002025863
+2022-04-13 19:05:19,000 DEBUG: Comparando SUNAT con BD
+2022-04-13 19:05:19,267 INFO : PL10002025863 actualizado
+2022-04-13 19:05:19,274 DEBUG: Validacion finalizada
+2022-04-13 19:05:19,274 INFO : Resultado: 1 correctos, 0 errores, 0 inválidos, 1 Socios Procesados -  Total Acumulado: 1
+2022-04-13 19:05:19,275 INFO : Finalizando el Proceso
+2022-04-13 19:05:19,283 INFO : Desconectando de la BD SBO_COSOL
+2022-04-13 19:05:21,402 INFO : Tiempo total de ejecución: 00:00:22.4588937
+2022-04-13 19:05:21,402 INFO : Eliminando temporales

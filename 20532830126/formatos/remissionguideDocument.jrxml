@@ -515,15 +515,6 @@
 				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu51")]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement positionType="FixRelativeToBottom" x="1" y="90" width="300" height="10" forecolor="#000000" uuid="7346255b-f882-4719-b56f-8536bb13bfa2">
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-				<textElement textAlignment="Left" verticalAlignment="Top">
-					<font fontName="Calibri" size="7" isBold="true"/>
-				</textElement>
-				<textFieldExpression><![CDATA["MZA. J LOTE. 25 INT. A URB. EL PACIFICO LIMA - LIMA - SAN MARTIN DE PORRES"]]></textFieldExpression>
-			</textField>
-			<textField isBlankWhenNull="true">
 				<reportElement x="0" y="110" width="558" height="78" forecolor="#000000" uuid="d284892b-d470-4359-a2f1-515e0baa4ec7"/>
 				<textElement textAlignment="Left" verticalAlignment="Top">
 					<font fontName="Calibri" size="7" isBold="true"/>
@@ -536,6 +527,15 @@
 					<font fontName="Calibri" size="10" isBold="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA["TRANSPORTES SAN CALIBU EIRL"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="FixRelativeToBottom" x="0" y="87" width="355" height="13" forecolor="#000000" uuid="e3372233-cd56-484c-a5cb-ffb00aeb45b1">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Calibri" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cuE03")]]></textFieldExpression>
 			</textField>
 		</band>
 	</title>

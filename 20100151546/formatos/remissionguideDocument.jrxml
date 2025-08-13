@@ -139,7 +139,7 @@
 				<text><![CDATA[Punto de Llegada :]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Opaque" x="236" y="147" width="307" height="20" forecolor="#000000" backcolor="#DBDBDB" uuid="a2489c5a-e1a6-40f8-b1d0-ce2b6675c1f9"/>
+				<reportElement mode="Opaque" x="236" y="134" width="307" height="20" forecolor="#000000" backcolor="#DBDBDB" uuid="a2489c5a-e1a6-40f8-b1d0-ce2b6675c1f9"/>
 				<box>
 					<topPen lineWidth="1.0"/>
 					<leftPen lineWidth="1.0"/>
@@ -153,7 +153,7 @@
 				<text><![CDATA[Descripción]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Opaque" x="160" y="147" width="38" height="20" forecolor="#000000" backcolor="#DBDBDB" uuid="8e03a532-16a3-4fdb-8db9-52a3e71e80ec">
+				<reportElement mode="Opaque" x="160" y="134" width="38" height="20" forecolor="#000000" backcolor="#DBDBDB" uuid="8e03a532-16a3-4fdb-8db9-52a3e71e80ec">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
@@ -169,7 +169,7 @@
 				<text><![CDATA[Unidad]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Opaque" x="108" y="147" width="52" height="20" forecolor="#000000" backcolor="#DBDBDB" uuid="91133b5f-cb18-4305-88b3-016f4fe3fb44"/>
+				<reportElement mode="Opaque" x="108" y="134" width="52" height="20" forecolor="#000000" backcolor="#DBDBDB" uuid="91133b5f-cb18-4305-88b3-016f4fe3fb44"/>
 				<box>
 					<topPen lineWidth="1.0"/>
 					<leftPen lineWidth="1.0"/>
@@ -303,7 +303,7 @@
 				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu20")]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement mode="Opaque" x="10" y="147" width="20" height="20" forecolor="#000000" backcolor="#DBDBDB" uuid="dbd4d8fd-2e83-41ab-8a15-7d82574f0c99"/>
+				<reportElement mode="Opaque" x="10" y="134" width="20" height="20" forecolor="#000000" backcolor="#DBDBDB" uuid="dbd4d8fd-2e83-41ab-8a15-7d82574f0c99"/>
 				<box>
 					<topPen lineWidth="1.0"/>
 					<leftPen lineWidth="1.0"/>
@@ -316,7 +316,7 @@
 				<text><![CDATA[N°]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Opaque" x="29" y="147" width="79" height="20" forecolor="#000000" backcolor="#DBDBDB" uuid="6eab5a83-a7b7-4679-ab11-1af45c25493b"/>
+				<reportElement mode="Opaque" x="29" y="134" width="79" height="20" forecolor="#000000" backcolor="#DBDBDB" uuid="6eab5a83-a7b7-4679-ab11-1af45c25493b"/>
 				<box>
 					<topPen lineWidth="1.0"/>
 					<leftPen lineWidth="1.0"/>
@@ -329,7 +329,7 @@
 				<text><![CDATA[Codigo del Bien]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Opaque" x="198" y="147" width="38" height="20" forecolor="#000000" backcolor="#DBDBDB" uuid="7ad081cd-8355-45a1-a420-8c6bbeffb338">
+				<reportElement mode="Opaque" x="198" y="134" width="38" height="20" forecolor="#000000" backcolor="#DBDBDB" uuid="7ad081cd-8355-45a1-a420-8c6bbeffb338">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
@@ -350,9 +350,10 @@
 		<band splitType="Stretch"/>
 	</columnHeader>
 	<detail>
-		<band height="30" splitType="Stretch">
+		<band height="22" splitType="Immediate">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<textField>
-				<reportElement x="108" y="0" width="52" height="10" forecolor="#666666" uuid="2019ca01-6c22-4268-84b9-96fe9287f21e"/>
+				<reportElement x="108" y="-13" width="52" height="10" forecolor="#666666" uuid="2019ca01-6c22-4268-84b9-96fe9287f21e"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Calibri" size="7"/>
 				</textElement>
@@ -685,7 +686,10 @@
 				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu28")]]></textFieldExpression>
 			</textField>
 			<image>
-				<reportElement x="20" y="260" width="200" height="160" uuid="cc93715c-b694-4e62-955c-af735b32e144"/>
+				<reportElement x="20" y="260" width="190" height="127" uuid="cc93715c-b694-4e62-955c-af735b32e144">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
 				<imageExpression><![CDATA[$P{CODEQR}]]></imageExpression>
 			</image>
 		</band>
