@@ -668,13 +668,14 @@
 				<text><![CDATA[Base Imponible:]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="384" y="117" width="70" height="12" forecolor="#666666" uuid="3c75c6a4-e8b1-4ff0-ba9f-ad5521260c83">
+				<reportElement x="384" y="117" width="96" height="12" forecolor="#666666" uuid="3c75c6a4-e8b1-4ff0-ba9f-ad5521260c83">
 					<printWhenExpression><![CDATA[new Boolean (((java.util.HashMap)$P{CamposUsuarioCab}).get("cu05").equals("Y"))]]></printWhenExpression>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Arial" size="10" isBold="true"/>
+					<font fontName="Arial" size="8" isBold="true"/>
 				</textElement>
-				<textFieldExpression><![CDATA[Double.parseDouble($P{TOTAL_AMOUNT_VALUE}.substring(3).replaceAll(",",""))+Double.parseDouble($P{AMOUNT_PERCEPTION}.substring(3).replaceAll(",",""))]]></textFieldExpression>
+				<textFieldExpression><![CDATA[new java.math.BigDecimal($P{TOTAL_AMOUNT_VALUE}.replaceAll("[^\\d.]", "")) 
+.add(new java.math.BigDecimal($P{AMOUNT_PERCEPTION}.replaceAll("[^\\d.]", "")))]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="5" y="117" width="57" height="12" forecolor="#000000" uuid="96cad002-98ba-4c05-99b1-5dc2a7b1d848">

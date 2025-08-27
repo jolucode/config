@@ -121,7 +121,7 @@
 				<textFieldExpression><![CDATA[$P{CONDICION_PAGO}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement positionType="FixRelativeToBottom" x="92" y="155" width="252" height="27" isRemoveLineWhenBlank="true" forecolor="#000000" uuid="d9e4abb5-32bb-43d1-bf86-d8323d88b54d"/>
+				<reportElement x="92" y="155" width="252" height="27" isRemoveLineWhenBlank="true" forecolor="#000000" uuid="d9e4abb5-32bb-43d1-bf86-d8323d88b54d"/>
 				<textElement verticalAlignment="Top">
 					<font fontName="Arial" size="7" isBold="false"/>
 				</textElement>
@@ -295,6 +295,27 @@
 				</textElement>
 				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cuDOC")]]></textFieldExpression>
 			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="243" y="21" width="110" height="12" forecolor="#000000" uuid="9dd6ee51-5dcc-4383-9c07-6f503850108d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu57")]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="243" y="48" width="106" height="12" forecolor="#000000" uuid="cfb99d62-fc9b-42e6-9028-60916a628b3b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu59")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+				<reportElement x="243" y="73" width="106" height="12" forecolor="#000000" uuid="a3d9d4b8-040a-47bb-9f21-1034ae7bd25c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu58")]]></textFieldExpression>
+			</textField>
 		</band>
 	</title>
 	<columnHeader>
@@ -310,7 +331,7 @@
 				<text><![CDATA[SUB-TOTAL]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Opaque" x="335" y="0" width="55" height="15" forecolor="#FFFFFF" backcolor="#E8151C" uuid="769102a1-edff-4979-8c3d-7997b876faf4">
+				<reportElement mode="Opaque" x="344" y="0" width="46" height="15" forecolor="#FFFFFF" backcolor="#E8151C" uuid="769102a1-edff-4979-8c3d-7997b876faf4">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
@@ -330,7 +351,7 @@
 				<text><![CDATA[IMPORTE]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Opaque" x="97" y="0" width="57" height="15" forecolor="#FFFFFF" backcolor="#E8151C" uuid="d7e5284f-9512-472f-b8b3-2a78aa48e827">
+				<reportElement mode="Opaque" x="98" y="0" width="57" height="15" forecolor="#FFFFFF" backcolor="#E8151C" uuid="d7e5284f-9512-472f-b8b3-2a78aa48e827">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
@@ -339,7 +360,7 @@
 				<text><![CDATA[CANTIDAD]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Opaque" x="153" y="0" width="183" height="15" forecolor="#FFFFFF" backcolor="#E8151C" uuid="6be9070a-7a42-403a-9272-83a29620c480">
+				<reportElement mode="Opaque" x="187" y="0" width="157" height="15" forecolor="#FFFFFF" backcolor="#E8151C" uuid="6be9070a-7a42-403a-9272-83a29620c480">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
@@ -376,6 +397,18 @@
 				</textElement>
 				<text><![CDATA[ÍTEM]]></text>
 			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="154" y="0" width="34" height="15" forecolor="#FFFFFF" backcolor="#E8151C" uuid="4629813c-be52-4616-a43e-5fe206bb8d54">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="6" isBold="true"/>
+					<paragraph rightIndent="5"/>
+				</textElement>
+				<text><![CDATA[UNIDAD]]></text>
+			</staticText>
 		</band>
 	</columnHeader>
 	<detail>
@@ -405,7 +438,7 @@
 				<textFieldExpression><![CDATA[new DecimalFormat("###,##0.00", new DecimalFormatSymbols(Locale.US)).format(new BigDecimal(((java.util.HashMap<String,String>)$F{lstItemHashMap}).get("Cantidad")))]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="336" y="0" width="54" height="21" forecolor="#000000" uuid="94f9566a-637e-4505-af6d-e0da00423deb"/>
+				<reportElement x="345" y="0" width="45" height="21" forecolor="#000000" uuid="94f9566a-637e-4505-af6d-e0da00423deb"/>
 				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font fontName="Arial" size="6"/>
 					<paragraph rightIndent="2"/>
@@ -425,9 +458,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Arial" size="6"/>
 				</textElement>
-				<textFieldExpression><![CDATA[
-new DecimalFormat("###,##0.00", new DecimalFormatSymbols(Locale.US)).format(new BigDecimal(((java.util.HashMap<String,String>)$F{lstItemHashMap}).get("DSCTO_Monto")))
-]]></textFieldExpression>
+				<textFieldExpression><![CDATA[new DecimalFormat("###,##0.00", new DecimalFormatSymbols(Locale.US)).format(new BigDecimal(((java.util.HashMap<String,String>)$F{lstItemHashMap}).get("DSCTO_Monto")))]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement x="30" y="0" width="68" height="21" forecolor="#000000" uuid="7582e567-e442-4b22-8386-11f8348e369a"/>
@@ -444,11 +475,22 @@ new DecimalFormat("###,##0.00", new DecimalFormatSymbols(Locale.US)).format(new 
 				<textFieldExpression><![CDATA[((java.util.HashMap)$F{lstItemHashMap}).get("NRORDEN")]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="154" y="1" width="181" height="20" forecolor="#000000" uuid="a1f1f663-352d-4564-88b4-cdb5dabe84ea"/>
+				<reportElement x="188" y="1" width="155" height="20" forecolor="#000000" uuid="a1f1f663-352d-4564-88b4-cdb5dabe84ea"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Arial" size="6"/>
 				</textElement>
 				<textFieldExpression><![CDATA[((java.util.HashMap)$F{lstItemHashMap}).get("Descripcion")]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="154" y="1" width="34" height="21" forecolor="#000000" uuid="e7d81e28-920e-45c7-b976-3c7a8db34f70">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="6"/>
+					<paragraph rightIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[((java.util.HashMap)$F{lstItemHashMap}).get("Unidad")]]></textFieldExpression>
 			</textField>
 		</band>
 	</detail>

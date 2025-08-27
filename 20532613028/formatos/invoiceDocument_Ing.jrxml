@@ -308,6 +308,27 @@
 				</textElement>
 				<textFieldExpression><![CDATA[$P{GUIAS}]]></textFieldExpression>
 			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="243" y="21" width="110" height="12" forecolor="#000000" uuid="0265c0a0-0389-4eae-9817-adabea6555cc"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu57")]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="243" y="48" width="106" height="12" forecolor="#000000" uuid="30344491-cd9b-4192-b0bf-13a4566c4dd8"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu59")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+				<reportElement x="243" y="73" width="106" height="12" forecolor="#000000" uuid="336506c5-1ecd-401d-9153-3449c0986b34"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu58")]]></textFieldExpression>
+			</textField>
 		</band>
 	</title>
 	<columnHeader>
