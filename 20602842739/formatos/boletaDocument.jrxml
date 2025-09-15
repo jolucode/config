@@ -696,8 +696,12 @@
 				<textElement textAlignment="Right">
 					<font fontName="Arial" size="8" isBold="true"/>
 				</textElement>
-				<textFieldExpression><![CDATA[new java.text.DecimalFormat("#,##0.00").format(
-    new BigDecimal(((java.util.HashMap)$P{CamposUsuarioCab}).get("cu24").replaceAll("[^\\d.]", ""))
+				<textFieldExpression><![CDATA[new java.text.DecimalFormat('#,##0.00').format(
+    new java.math.BigDecimal(
+        String.valueOf(((java.util.HashMap)$P{CamposUsuarioCab}).get('cu24'))
+              .replaceAll('[^\\d.]', '')
+              .replaceAll('^$', '0')
+    )
 )]]></textFieldExpression>
 			</textField>
 			<textField>
