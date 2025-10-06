@@ -353,7 +353,7 @@
 		<band height="22" splitType="Immediate">
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<textField>
-				<reportElement x="108" y="-13" width="52" height="10" forecolor="#666666" uuid="2019ca01-6c22-4268-84b9-96fe9287f21e"/>
+				<reportElement x="108" y="0" width="52" height="10" forecolor="#666666" uuid="2019ca01-6c22-4268-84b9-96fe9287f21e"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Calibri" size="7"/>
 				</textElement>
