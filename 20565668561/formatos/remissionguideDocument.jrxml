@@ -180,7 +180,7 @@
 				<textFieldExpression><![CDATA[$P{DIRECCION_DESTINO}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement mode="Opaque" x="126" y="126" width="419" height="20" forecolor="#DBDBDB" backcolor="#004D77" uuid="a2489c5a-e1a6-40f8-b1d0-ce2b6675c1f9"/>
+				<reportElement mode="Opaque" x="183" y="126" width="362" height="20" forecolor="#DBDBDB" backcolor="#004D77" uuid="a2489c5a-e1a6-40f8-b1d0-ce2b6675c1f9"/>
 				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None">
 					<font fontName="Calibri" size="7" isBold="true"/>
 					<paragraph lineSpacing="Single" leftIndent="5"/>
@@ -222,6 +222,13 @@
 				</textElement>
 				<text><![CDATA[Descripción  Traslado :]]></text>
 			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="126" y="126" width="57" height="20" forecolor="#DBDBDB" backcolor="#004D77" uuid="f6ea65b5-f341-4bc6-9204-433a44aab86d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Calibri" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Codigo]]></text>
+			</staticText>
 		</band>
 	</pageHeader>
 	<columnHeader>
@@ -244,11 +251,18 @@
 				<textFieldExpression><![CDATA[((java.util.HashMap)$F{lstItemHashMap}).get("Unidad")]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="126" y="0" width="418" height="17" forecolor="#000000" uuid="dffa79e2-c91c-417d-8152-d243616528eb"/>
+				<reportElement x="183" y="0" width="361" height="17" forecolor="#000000" uuid="dffa79e2-c91c-417d-8152-d243616528eb"/>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="Calibri" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[((java.util.HashMap)$F{lstItemHashMap}).get("Descripcion")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="126" y="0" width="57" height="17" forecolor="#000000" uuid="17395e1d-fb7c-4539-9bdd-2ebf37ea45f7"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Calibri" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[((java.util.HashMap)$F{lstItemHashMap}).get("CodArticulo")]]></textFieldExpression>
 			</textField>
 		</band>
 	</detail>

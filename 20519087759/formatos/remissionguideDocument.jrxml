@@ -409,7 +409,7 @@
 				<text><![CDATA[Motivo de traslado :]]></text>
 			</staticText>
 			<textField textAdjust="StretchHeight" isBlankWhenNull="false">
-				<reportElement positionType="FixRelativeToBottom" x="358" y="72" width="143" height="10" forecolor="#666666" uuid="415a2944-1fa4-434f-8b87-5663950bd5e7"/>
+				<reportElement positionType="FixRelativeToBottom" x="358" y="72" width="165" height="10" forecolor="#666666" uuid="415a2944-1fa4-434f-8b87-5663950bd5e7"/>
 				<textElement verticalAlignment="Top">
 					<font fontName="Calibri" size="8"/>
 				</textElement>
@@ -422,9 +422,9 @@
 				</textElement>
 				<text><![CDATA[Factura Referencia:]]></text>
 			</staticText>
-			<textField isBlankWhenNull="true">
-				<reportElement x="358" y="47" width="165" height="10" forecolor="#666666" uuid="d50ad77a-ea39-401d-a813-5df51605b056"/>
-				<textElement verticalAlignment="Middle">
+			<textField textAdjust="StretchHeight" isBlankWhenNull="false">
+				<reportElement x="358" y="47" width="173" height="10" forecolor="#666666" uuid="21fb429f-9b17-4ff3-bea4-fe2d89084c29"/>
+				<textElement>
 					<font fontName="Calibri" size="8"/>
 				</textElement>
 				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu12")]]></textFieldExpression>

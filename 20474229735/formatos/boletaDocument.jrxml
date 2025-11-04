@@ -775,7 +775,7 @@
 				</textElement>
 				<text><![CDATA[Autorizado mediante la Resolución N° 0320050001305/SUNAT.
 Representación Impresa de la Boleta Electrónica.
-Para consultar el documento ingrese a http://emegaval.com]]></text>
+Para consultar el documento ingrese a http://facturacion.megavalindustrial.com/]]></text>
 			</staticText>
 			<textField isBlankWhenNull="true">
 				<reportElement x="519" y="125" width="55" height="12" forecolor="#666666" uuid="52b9acf0-dcb8-4c8c-8c29-b7c154a2c2a9"/>

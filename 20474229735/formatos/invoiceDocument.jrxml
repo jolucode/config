@@ -826,7 +826,7 @@
 				</textElement>
 				<text><![CDATA[Autorizado mediante la Resolución N° 0320050001305/SUNAT.
 Representación Impresa de la Factura Electrónica.
-Para consultar el documento ingrese a http://emegaval.com]]></text>
+Para consultar el documento ingrese a http://facturacion.megavalindustrial.com/]]></text>
 			</staticText>
 			<textField>
 				<reportElement x="496" y="97" width="21" height="12" forecolor="#666666" uuid="f8532379-b319-439f-a572-b27356904db3"/>

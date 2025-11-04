@@ -856,7 +856,7 @@
 				<textElement textAlignment="Right" verticalAlignment="Top">
 					<font fontName="Arial" size="8" isBold="true"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$P{TOTAL_AMOUNT_VALUE}.substring( 3 )]]></textFieldExpression>
+				<textFieldExpression><![CDATA[((java.util.HashMap)$P{CamposUsuarioCab}).get("cu29") == "2" ? $P{GRATUITA_AMOUNT_VALUE}.substring( 3 ) : $P{TOTAL_AMOUNT_VALUE}.substring( 3 )]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="495" y="50" width="21" height="12" forecolor="#666666" uuid="4af26ea4-4d92-4d7f-9126-39c94e5b98be"/>
